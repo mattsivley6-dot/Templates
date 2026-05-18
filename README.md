@@ -5,6 +5,8 @@ single source of truth across projects.
 
 ## Templates
 
+### Project artifacts (PMBOK)
+
 | File | PMBOK Artifact | Performance Domain / Process |
 | --- | --- | --- |
 | [01_Risk_Register.docx](templates/01_Risk_Register.docx) | Risk Register | Uncertainty |
@@ -13,9 +15,19 @@ single source of truth across projects.
 | [04_Change_Request_Form.docx](templates/04_Change_Request_Form.docx) | Change Request | Integrated Change Control |
 | [05_Project_Closeout_Checklist.docx](templates/05_Project_Closeout_Checklist.docx) | Closeout Checklist | Close Project or Phase |
 
-All templates use PMI-standard field sets (Risk Score, Response Strategy,
-Residual Risk, RYG performance indicators, CCB Disposition, etc.) with
-bracketed `[Placeholder]` text where project-specific values belong.
+### Submittal flow (AEC)
+
+| File | Purpose |
+| --- | --- |
+| [01_Transmittal.docx](templates/submittals/01_Transmittal.docx) | Delivery cover / routing slip — who, what, how transmitted |
+| [02_Submittal_Cover_Sheet.docx](templates/submittals/02_Submittal_Cover_Sheet.docx) | Per-submittal title page — project, parties, A/E action stamp |
+| [03_Submittal_Index.docx](templates/submittals/03_Submittal_Index.docx) | Itemized contents + contractor remarks + known deviations |
+| [04_Submittal_Package_Combined.docx](templates/submittals/04_Submittal_Package_Combined.docx) | All three above bound back-to-back as one deliverable |
+
+All templates use standard field sets (Risk Score, Response Strategy,
+Residual Risk, RYG performance indicators, CCB Disposition, CSI division /
+spec section references, A/E action stamps) with bracketed `[Placeholder]`
+text where project-specific values belong.
 
 ## How to use
 
@@ -28,11 +40,16 @@ bracketed `[Placeholder]` text where project-specific values belong.
 
 ## Updating the templates
 
-The templates are generated from `scripts/build_templates.py` so the format
-stays consistent. To change a template:
+The templates are generated from the scripts in `/scripts/` so the format
+stays consistent:
 
-1. Edit `scripts/build_templates.py`.
-2. Run `python scripts/build_templates.py`.
+- `scripts/build_templates.py` — PMBOK project artifacts (`/templates/*.docx`)
+- `scripts/build_submittal_templates.py` — submittal flow (`/templates/submittals/*.docx`)
+
+To change a template:
+
+1. Edit the relevant builder script in `/scripts/`.
+2. Run it: `python scripts/build_templates.py` or `python scripts/build_submittal_templates.py`.
 3. Commit the updated `.docx` and the script in the same commit.
 
 Do **not** hand-edit the `.docx` files in `/templates/` if the change should
