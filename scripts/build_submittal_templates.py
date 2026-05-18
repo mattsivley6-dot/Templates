@@ -28,7 +28,7 @@ from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.normpath(os.path.join(HERE, "..", "templates", "submittals"))
+OUT = os.path.normpath(os.path.join(HERE, "..", "templates"))
 os.makedirs(OUT, exist_ok=True)
 
 # Palette pulled from the real PDFs
@@ -547,23 +547,8 @@ def build_index():
     return out
 
 
-def build_combined():
-    doc = Document()
-    page_setup(doc)
-    letterhead(doc)
-    doc.add_paragraph()
-    section_transmittal(doc)
-    doc.add_page_break()
-    section_cover_sheet(doc)
-    doc.add_page_break()
-    section_index(doc)
-    out = os.path.join(OUT, "04_Submittal_Package_Combined.docx")
-    doc.save(out)
-    return out
-
-
 def main():
-    for fn in [build_transmittal, build_cover_sheet, build_index, build_combined]:
+    for fn in [build_transmittal, build_cover_sheet, build_index]:
         print(f"wrote {os.path.basename(fn())}")
 
 
