@@ -1,0 +1,22 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Office lock / temp files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Python build artifacts (scripts dir)
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Backups
+*_PRE-PMI.docx
+*.bak
