@@ -1,0 +1,2 @@
+{"event": "ready", "proxy_pid": 37248, "registered": true, "proxy_register_tries": {"1": [-2147024809, "The parameter is incorrect."], "0": [-2147024809, "The parameter is incorrect."]}, "pid": 39392, "t": 1792321947.912}
+{"event": "exit", "pid": 39392, "t": 1792321949.351}

@@ -1,0 +1,93 @@
+{
+ "takeoff_exit": 0,
+ "takeoff_secs": 6.0,
+ "max_abs_diff_vs_com_in": {
+  "Length": 4e-06,
+  "CutLength": 4e-06,
+  "StartPoint": 0.0,
+  "EndPoint": 0.0
+ },
+ "runs": [
+  {
+   "run": "R1",
+   "system": "CHWS",
+   "size": "4\"",
+   "drawn_ft": 70.0,
+   "pipe_ft": 69.1255,
+   "fitting_ft": 0.8744999999999953,
+   "sum_minus_drawn_in": 0.0,
+   "pieces": 3,
+   "fittings": 2,
+   "gaps": [],
+   "overlaps": []
+  },
+  {
+   "run": "R3",
+   "system": "CHWS",
+   "size": "2\"",
+   "drawn_ft": 20.0,
+   "pipe_ft": 19.6289,
+   "fitting_ft": 0.3711000000000002,
+   "sum_minus_drawn_in": 2.842170943040401e-14,
+   "pieces": 2,
+   "fittings": 2,
+   "gaps": [],
+   "overlaps": []
+  },
+  {
+   "run": "R2",
+   "system": "CHWR",
+   "size": "2\"",
+   "drawn_ft": 50.0,
+   "pipe_ft": 49.763533333333335,
+   "fitting_ft": 0.2364666666666627,
+   "sum_minus_drawn_in": 0.0,
+   "pieces": 2,
+   "fittings": 1,
+   "gaps": [],
+   "overlaps": []
+  },
+  {
+   "run": "R4",
+   "system": "CHWR",
+   "size": "1-1/2\"",
+   "drawn_ft": 50.002499937503124,
+   "pipe_ft": 50.002499937503124,
+   "fitting_ft": 0.0,
+   "sum_minus_drawn_in": 0.0,
+   "pieces": 1,
+   "fittings": 0,
+   "gaps": [],
+   "overlaps": []
+  },
+  {
+   "run": "R5",
+   "system": "Standard",
+   "size": "3/4\"",
+   "drawn_ft": 10.0,
+   "pipe_ft": 10.0,
+   "fitting_ft": 0.0,
+   "sum_minus_drawn_in": 0.0,
+   "pieces": 1,
+   "fittings": 0,
+   "gaps": [],
+   "overlaps": []
+  }
+ ],
+ "summary_lengths": {
+  "CHWR 2\"": 49.7635,
+  "CHWR 1-1/2\"": 50.0025,
+  "CHWS 4\"": 69.5591,
+  "CHWS 2\"": 19.1953,
+  "Standard 3/4\"": 10.0
+ },
+ "fittings": {
+  "Elbow 90 4\"": 1,
+  "Elbow 90 2\"": 1,
+  "Reducer, concentric 4\" x 2\"": 1,
+  "Tee 4\"": 1
+ },
+ "keep_units_worst_in": 0.0156,
+ "keep_units_secs": 6.3,
+ "fails": []
+}

@@ -1,0 +1,98 @@
+{
+  "output_filename": "Sample_Elementary_Duct_Transition_ShopTicket.pdf",
+  "pdf_title": "Sample Elementary Duct Transition Shop Ticket",
+  "schedule_title": "Sample Elementary RTU Duct Transition Schedule",
+  "schedule_subtitle": "Sample ISD, Sample Elementary School · {{company.dba}} · field sketches by {{company.pm_name}}",
+  "footer_notes": [
+    "Every drop: 1\" flange (4 sides) at curb top, S-cleat + drive on the girth joints, and 1.5\" internal duct liner.",
+    "Each flex is a separate piece sized to its drop bottom; square-to-round is separate. Inches. Field verify."
+  ],
+  "fittings": [
+    {
+      "tag": "RTU-1", "service": "Supply", "piece": "transition + separate flex", "qty": 1,
+      "top_w": 60, "top_d": 24, "bot_w": 40, "bot_d": 20, "height_in": 18,
+      "taper": "flush_left", "liner_note": "1.5\" duct liner", "liner_sub": "internal",
+      "flex": {"w": 40, "d": 20, "height_in": 16},
+      "schedule_line": "Supply · 60×24 to 40×20 · 18\" tall · sep flex 40×20",
+      "spec_lines": [
+        "Top (curb) 60 × 24 Bottom 40 × 20 Drop 18\" tall · 1.5\" liner",
+        "Flush left, taper right; depth 24 to 20 centered",
+        "Joints: S-cleat + drive (1\" flange at curb top only)"
+      ]
+    },
+    {
+      "tag": "RTU-1", "service": "Return", "piece": "transition + separate flex", "qty": 1,
+      "top_w": 60, "top_d": 18, "bot_w": 40, "bot_d": 20, "height_in": 18,
+      "taper": "concentric", "liner_note": "1.5\" duct liner", "liner_sub": "internal",
+      "flex": {"w": 40, "d": 20, "height_in": 16},
+      "schedule_line": "Return · 60×18 to 40×20 · 18\" tall · sep flex 40×20",
+      "spec_lines": [
+        "Top (curb) 60 × 18 Bottom 40 × 20 Drop 18\" tall · 1.5\" liner",
+        "Concentric (centered)",
+        "Joints: S-cleat + drive (1\" flange at curb top only)"
+      ]
+    },
+    {
+      "tag": "Room 101", "service": "Supply", "piece": "transition + separate flex", "qty": 1,
+      "top_w": 30, "top_d": 16, "bot_w": 32, "bot_d": 14, "height_in": 40,
+      "taper": "flush_left", "liner_note": "1.5\" duct liner", "liner_sub": "internal",
+      "flex": {"w": 32, "d": 14, "height_in": 16},
+      "schedule_line": "Supply · 30×16 to 32×14 · 40\" tall · sep flex 32×14",
+      "spec_lines": [
+        "Top (curb) 30 × 16 Bottom 32 × 14 Drop 40\" tall · 1.5\" liner",
+        "Left wall plumb; depth 16 to 14 centered",
+        "Joints: S-cleat + drive (1\" flange at curb top only)"
+      ]
+    },
+    {
+      "tag": "Room 101", "service": "Return", "piece": "transition + separate flex", "qty": 1,
+      "top_w": 30, "top_d": 16, "bot_w": 36, "bot_d": 12, "height_in": 40,
+      "taper": "flush_right", "liner_note": "1.5\" duct liner", "liner_sub": "internal",
+      "flex": {"w": 36, "d": 12, "height_in": 16},
+      "schedule_line": "Return · 30×16 to 36×12 · 40\" tall · sep flex 36×12",
+      "spec_lines": [
+        "Top (curb) 30 × 16 Bottom 36 × 12 Drop 40\" tall · 1.5\" liner",
+        "Right wall plumb; left flares 6\" left",
+        "Joints: S-cleat + drive (1\" flange at curb top only)"
+      ]
+    },
+    {
+      "tag": "Room 102", "service": "Supply", "piece": "drop + flex + square-to-round (3 separate pieces)", "qty": 1,
+      "top_w": 18, "top_d": 14, "bot_w": 18, "bot_d": 10, "height_in": 24,
+      "taper": "concentric",
+      "flex": {"w": 18, "d": 10, "height_in": 12},
+      "square_to_round": {"dia": 10, "height_in": 10, "note": "separate, to 10\"ø"},
+      "schedule_line": "Supply · 18×14 to 18×10 · sep flex 18×10 · sep sq-to-round 10\"ø",
+      "spec_lines": [
+        "Top (curb) 18 × 14 Drop to 18 × 10, 24\" tall · 1.5\" liner",
+        "Separate flex 18 × 10 between drop and square-to-round (all separate)",
+        "Square-to-round to 10\"ø, ht ~10\" assumed (confirm) · S + drive joints"
+      ]
+    },
+    {
+      "tag": "Room 102", "service": "Return", "piece": "drop + flex + square-to-round (3 separate pieces)", "qty": 1,
+      "top_w": 20, "top_d": 14, "bot_w": 16, "bot_d": 10, "height_in": 24,
+      "taper": "concentric",
+      "flex": {"w": 16, "d": 10, "height_in": 12},
+      "square_to_round": {"dia": 10, "height_in": 10, "note": "separate, to 10\"ø"},
+      "schedule_line": "Return · 20×14 to 16×10 · sep flex 16×10 · sep sq-to-round 10\"ø",
+      "spec_lines": [
+        "Top (curb) 20 × 14 Drop to 16 × 10, 24\" tall · 1.5\" liner",
+        "Separate flex 16 × 10 between drop and square-to-round (all separate)",
+        "Square-to-round to 10\"ø, ht ~10\" assumed (confirm) · S + drive joints"
+      ]
+    },
+    {
+      "tag": "Room 103", "service": "", "piece": "transition side + separate flex", "qty": 2,
+      "top_w": 30, "top_d": 16, "bot_w": 18, "bot_d": 18, "height_in": 32,
+      "taper": "flush_right", "liner_note": "1.5\" duct liner", "liner_sub": "internal",
+      "flex": {"w": 18, "d": 18, "height_in": 16},
+      "schedule_line": "Transition 30×16 to 18×18, 32\", right plumb (Qty 2) · sep flex 18×18",
+      "spec_lines": [
+        "Top (curb) 30 × 16 Bottom 18 × 18 Drop 32\" tall · 1.5\" liner",
+        "Right wall plumb; left tapers 12\"",
+        "Joints: S-cleat + drive (1\" flange at curb top only)"
+      ]
+    }
+  ]
+}

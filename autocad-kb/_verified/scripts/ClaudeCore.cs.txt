@@ -1,0 +1,12 @@
+using Autodesk.AutoCAD.Runtime;
+using Autodesk.AutoCAD.ApplicationServices.Core;
+[assembly: CommandClass(typeof(ClaudeCore.Cmds))]
+namespace ClaudeCore {
+  public class Cmds {
+    [CommandMethod("CLAUDECORE")]
+    public static void Hello() {
+      var doc = Application.DocumentManager.MdiActiveDocument;
+      doc.Editor.WriteMessage("\nCLAUDECORE LOADED AND RAN, objects in database: " + doc.Database.ApproxNumObjects + "\n");
+    }
+  }
+}

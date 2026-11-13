@@ -1,0 +1,33 @@
+{
+  "doc_date": "2026-08-14",
+  "output_filename": "Warranty Close Out Letter - Sample Elementary School.docx",
+  "customer_contact_lines": ["Sam Roe", "Sample ISD", "200 Example Avenue", "Anytown, TX 75001"],
+  "project_title": "Sample Elementary School HVAC Replacement",
+  "customer_name": "Sample ISD",
+  "property_name": "Sample Elementary School",
+  "property_address_lines": ["200 Example Avenue", "Anytown, TX 75001"],
+  "authorized_by": "Sam Roe, Owner Representative",
+  "completion_notice": "The replacement of rooftop units RTU-1 and RTU-2, including curbs, ductwork connections, controls, and startup at Sample Elementary School, was completed on August 14, 2026, which establishes the start of Example Mechanical, LLC's one (1) year workmanship warranty period.",
+  "equipment": [
+    {"label": "Manufacturer", "value": "[Manufacturer]"},
+    {"label": "Equipment", "value": "Packaged Rooftop Unit (2)"},
+    {"label": "Model", "value": "[MODEL-NUMBER]"},
+    {"label": "Tags / Serial Numbers", "value": "RTU-1 / SN-0000001; RTU-2 / SN-0000002"},
+    {"label": "Electrical", "value": "460 V / 60 Hz / 3"},
+    {"label": "Refrigerant", "value": "R-454B"}
+  ],
+  "warranty_heading_suffix": "",
+  "warranty_lines": [
+    {"label": "Parts", "value": "1 year (expires 08/14/2027)"},
+    {"label": "", "value": "Equipment manufacturer's standard warranty"},
+    {"label": "Exclusions", "value": "Damage from misuse, neglect, acts of nature, lack of routine maintenance, unauthorized modifications, or consequential damages."}
+  ],
+  "reminders": [
+    "To keep the warranty valid, the equipment must be maintained in accordance with the manufacturer's requirements. For warranty service, contact Example Mechanical at (555) 010-0100 and reference Job No. J-0001."
+  ],
+  "acceptance_statement": "The system has been installed to industry and manufacturer standards and is operational at close-out.",
+  "signers": [],
+  "payment_terms": "Net 30",
+  "include_license_block": true,
+  "license_extra_lines": ["[Regulatory notice required by your state licensing agency, if any]"]
+}

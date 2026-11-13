@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "pdf_title": "Notice of Concealed Condition and Reservation of Rights - Corridor Ceiling",
+    "created": "2026-03-12",
+    "file_ref": "PCO-001",
+    "job_slug": "J-0001"
+  },
+  "letter": {
+    "date_display": "March 12, 2026",
+    "re_text": "Re: PCO-001. Notice of Concealed Condition and Reservation of Rights, corridor ceiling on the RTU-2 duct route. Sample Elementary School HVAC Replacement. Project 2026-0001.",
+    "body_paragraphs": [
+      "Formal written notice under Contract Sections [A], [B], and [C]. This reserves our rights and serves as our Notice of Claim, sent by certified mail as Section [C] requires.",
+      "1. On March 3, 2026, we opened the corridor ceiling to run the new RTU-2 supply duct. We found abandoned piping and a beam not shown on the plans in the duct path. The duct cannot be installed as drawn.",
+      "2. We stopped work in that area and sent RFI-001 before disturbing the existing piping (Section [A]).",
+      "3. On March 9, 2026, the Engineer issued a revised duct route. We priced the added work in PCO-001, sent separately.",
+      "4. The revised route adds about five working days to the corridor work. We will confirm in writing if it moves the completion date.",
+      "5. We reserve a fair adjustment of the Contract Sum for this work (Section [A]), and added time to the extent the condition moves the completion date (Section [B]).",
+      "6. Please execute PCO-001 as a Change Order (Section [D]). We will proceed with the revised route on your written direction."
+    ],
+    "signature_lines": [],
+    "signature_image": null
+  },
+  "recipients": [
+    {
+      "tag": "Owner",
+      "address_lines": [
+        "Sample ISD",
+        "Attn: Sam Roe, Owner Representative",
+        "200 Example Avenue",
+        "Anytown, TX 75001"
+      ],
+      "salutation": "Mr. Roe:",
+      "cc_lines": [
+        "Sample Engineering, Inc. (Alex Poe, PE)",
+        "Project file (with certified mail receipt)"
+      ]
+    },
+    {
+      "tag": "Engineer",
+      "address_lines": [
+        "Alex Poe, PE",
+        "Sample Engineering, Inc.",
+        "100 Sample Street, Suite 300",
+        "Anytown, TX 75000"
+      ],
+      "salutation": "Mr. Poe:",
+      "cc_lines": [
+        "Sample ISD (Sam Roe, Owner Representative)",
+        "Project file (with certified mail receipt)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+opened rp_probe2.dwg | CPROFILE AutoCAD MEP (US Imperial)
+NOD keys: ['AEC_2D_SECTION_STYLES', 'AEC_AREA_GROUP_DEFS', 'AEC_AREA_MODIFIERS', 'AEC_AREA_PROPOSALNAMES', 'AEC_AREA_STYLES', 'AEC_AREAGROUP_STYLES', 'AEC_CLASSIFICATION_SYSTEM_DEFS', 'AEC_CLEANUP_GROUP_DEFS', 'AEC_CURTAIN_WALL_LAYOUT_STYLES', 'AEC_CURTAIN_WALL_UNIT_STYLES', 'AEC_DIM_STYLES', 'AEC_DISP_REP_CONFIGURATIONS', 'AEC_DISP_REP_SETS', 'AEC_DISP_REPS', 'AEC_DISPLAY_PROPS_DEFAULTS', 'AEC_DISPLAYTHEME_STYLES', 'AEC_DOOR_STYLES', 'AEC_ENDCAP_STYLES', 'AEC_LAYERKEY_STYLES', 'AEC_LIST_DEFINITIONS', 'AEC_MASKBLOCK_DEFS', 'AEC_MASS_ELEM_STYLES', 'AEC_MATERIAL_DEFS', 'AEC_MVBLOCK_DEFS', 'AEC_OPENING_ENDCAP_STYLES', 'AEC_POLYGON_STYLES', 'AEC_PROFILE_DEFS', 'AEC_PROPERTY_FORMAT_DEFS', 'AEC_PROPERTY_SET_DEFS', 'AEC_RAILING_STYLES', 'AEC_ROOFSLAB_STYLES', 'AEC_ROOFSLABEDGE_STYLES', 'AEC_SCHEDULE_TABLE_STYLES', 'AEC_SLAB_STYLES', 'AEC_SLABEDGE_STYLES', 'AEC_SPACE_MODIFIERS', 'AEC_SPACE_STYLES', 'AEC_STAIR_STYLES', 'AEC_STAIR_WINDER_STYLES', 'AEC_STAIR_WINDER_TYPES', 'AEC_STRUCTURALMEMBER_STYLES', 'AEC_VARS', 'AEC_WALL_STYLES', 'AEC_WALLMOD_STYLES', 'AEC_WINDOW_ASSEMBLY_STYLES', 'AEC_WINDOW_STYLES', 'AEC_ZONE_DEFS', 'AEC_ZONE_STYLES', 'AECB_CABLETARY_RISEDROP_STYLES', 'AECB_CABLETRAY_PARTCATPREF_STYLES', 'AECB_CABLETRAY_STYLES', 'AECB_CIRCUITS', 'AECB_CONDUIT_PARTCATPREF_STYLES', 'AECB_CONDUIT_RISEDROP_STYLES', 'AECB_CONDUIT_STYLES', 'AECB_CONNECTOR_STYLES', 'AECB_DEMAND_FACTOR_STYLES', 'AECB_DEVICE_STYLES', 'AECB_DEVICECATEGORYDEFS', 'AECB_DUCT_PARTCATPREF_STYLES']
+routing preferences (dictionary): 25 ['Brazed Copper', 'Butt Welded', 'Butt Welded and Socket Welded', 'Cast Iron Soil Pipe - Bell x Spigot', 'Cast Iron Soil Pipe - No Hub Fittings', 'D.I. Mechanical Joint', 'D.I. Push On Joint', 'D.I. Threaded Flanged - 150 Lb.and Threaded', 'D.I. Threaded Flanged - 250 Lb.and Threaded', 'DWV Copper', 'Generic Flanged', 'Generic Socket Weld', 'Generic Threaded', 'Glued', 'Grooved', 'Grooved and Threaded', 'HDPE - IPS', 'Placeholder', 'Sanitary PVC DWV', 'Sanitary PVC Hub x No Hub', 'Slip on Flanged - 150 Lb. and Threaded', 'Socket Weld 3000-lb.', 'Standard', 'Threaded 2000-lb.', 'Weld Neck Flanged - 150-lb. and Threaded']
+pipe systems (dictionary): ['Standard']
+COM PipePartCatPrefStyles.Count = 1
+  Has('Brazed Copper') = False
+  Item('Brazed Copper') ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None)
+  Has('Butt Welded') = False
+  Item('Butt Welded') ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None)
+  Has('Butt Welded and Socket Welded') = False
+  Item('Butt Welded and Socket Welded') ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None)
+COM PipeSystemDefs: ['Standard']
+PipeStyles count 1
+PipeFittingStyles count 1
+PipeFlexStyles count 1
+PipeCustomFittingStyles count 1
+PipeRiseDropStyles count 2
+added system CHWS label CHWS family Chilled Water layerkey '' min dia -1.0
+pipe systems after COM Add (dictionary): ['CHWS', 'Standard']
+sending: _-AECBPIPEADD / R / Glued / SY / CHWS / SI / 4" / _non / 0,0,120 / _non / 240,0,120 / _non / 240,240,120 /  / 
+idle after pipe command: True | command log since send:
+Command: 
+Command: _-AECBPIPEADD
+
+Start point or [Routing preference/SYstem/SIze/Lock size/Tolerance off/Elevation/Justification/Slope/Match/preFerences]: 
+Start point or [Routing preference/SYstem/SIze/Lock size/Tolerance off/Elevation/Justification/Slope/Match/preFerences]: R
+
+Routing Preference name, index number or [?] <Glued>: Glued
+
+Start point or [Routing preference/SYstem/SIze/Lock size/Tolerance off/Elevation/Justification/Slope/Match/preFerences]: 
+Start point or [Routing preference/SYstem/SIze/Lock size/Tolerance off/Elevation/Justification/Slope/Match/preFerences]: SY
+
+System name, index number or [?] <Standard>: CHWS
+
+Start point or [Routing preference/SYstem/SIze/Lock size/Tolerance off/Elevation/Justification/Slope/Match/preFerences]: 
+Start point or [Routing preference/SYstem/SIze/Lock size/Tolerance off/Elevation/Justification/Slope/Match/preFerences]: SI
+
+Nominal Size or [?] <1">: 4"
+
+Start point or [Routing preference/SYstem/SIze/Lock size/Tolerance off/Elevation/Justification/Slope/Match/preFerences]: 
+Start point or [Routing preference/SYstem/SIze/Lock size/Tolerance off/Elevation/Justification/Slope/Match/preFerences]: _non
+0,0,120
+
+Next point or [Routing preference/SYstem/SIze/Lock size/Tolerance off/Elevation/Justification/Compass/Plane/roTAte/Slope/Match/New run/preFerences]: 
+Next point or [Routing preference/SYstem/SIze/Lock size/Tolerance off/Elevation/Justification/Compass/Plane/roTAte/Slope/Match/New run/preFerences]: _non
+240,0,120
+
+Next point or [Routing preference/SIze/Lock size/Tolerance off/Elevation/Justification/Compass/Plane/roTAte/Slope/Match/New run/preFerences/Undo]: 
+Next point or [Routing preference/SIze/Lock size/Tolerance off/Elevation/Justification/Compass/Plane/roTAte/Slope/Match/New run/preFerences/Undo]: _non
+240,240,120
+
+Next point or [Routing preference/SIze/Lock size/Tolerance off/Elevation/Justification/Compass/Plane/roTAte/Slope/Match/New run/preFerences/Undo]: 
+Next point or [Routing preference/SIze/Lock size/Tolerance off/Elevation/Justification/Compass/Plane/roTAte/Slope/Match/New run/preFerences/Undo]: 
+
+
+entity 0 AecbDbPipe M-Pipe-Std 101E392
+entity 1 AecbDbPipeFitting M-Pipe-Std 101E39B
+entity 2 AecbDbPipe M-Pipe-Std 101E39C
+pipe 0 {"StartPoint": [0.0, 0.0, 120.0], "EndPoint": [237.3, 0.0, 120.0], "Length": 237.3, "CutLength": 237.3, "SizeName": "4 Inch Commercial Pipe", "CrossSectionSize": "4 1/2", "NominalSize": 4.0, "SystemName": "CHWS (CHWS)", "SystemAbbreviation": "CHWS", "SystemFamily": "Chilled Water", "PartDescription": "Commercial Pipe", "StyleName": "ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467263), None)", "Elevation": 120.0, "TopElevation": 122.25, "BottomElevation": 117.75, "LockSize": false, "InsulationThickness": 0.0, "Type": "Pipe", "SubType": "Undefined", "Name": "Commercial Pipe", "Description": ""}
+   connector 0 loc (0.0, 0.0, 120.0) dir (-1.0, -0.0, -0.0) type Undefined_Connection_Type size 4.0 connected ERR 'NoneType' object has no attribute 'Invoke'
+   connector 1 loc (237.3, 0.0, 120.0) dir (1.0, 0.0, 0.0) type Undefined_Connection_Type size 4.0 connected ERR 'tuple' object has no attribute 'Invoke'
+   connector 2 loc ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None) dir (-1.0, -0.0, -0.0) type Undefined_Connection_Type size ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None) connected ERR 'NoneType' object has no attribute 'Invoke'
+pipe 1 {"StartPoint": [240.0, 2.7000000000000037, 120.0], "EndPoint": [240.00000000000006, 240.0, 120.0], "Length": 237.29999999999998, "CutLength": 237.29999999999998, "SizeName": "4 Inch Commercial Pipe", "CrossSectionSize": "4 1/2", "NominalSize": 4.0, "SystemName": "CHWS (CHWS)", "SystemAbbreviation": "CHWS", "SystemFamily": "Chilled Water", "PartDescription": "Commercial Pipe", "StyleName": "ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467263), None)", "Elevation": 120.0, "TopElevation": 122.25, "BottomElevation": 117.75, "LockSize": false, "InsulationThickness": 0.0, "Type": "Pipe", "SubType": "Undefined", "Name": "Commercial Pipe", "Description": ""}
+   connector 0 loc (240.0, 2.7000000000000037, 120.0) dir (-2.395424309347157e-16, -1.0, -0.0) type Undefined_Connection_Type size 4.0 connected ERR 'tuple' object has no attribute 'Invoke'
+   connector 1 loc (240.00000000000006, 240.0, 120.0) dir (2.395424309347157e-16, 1.0, 0.0) type Undefined_Connection_Type size 4.0 connected ERR 'NoneType' object has no attribute 'Invoke'
+   connector 2 loc ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None) dir (-2.395424309347157e-16, -1.0, -0.0) type Undefined_Connection_Type size ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None) connected ERR 'NoneType' object has no attribute 'Invoke'
+fitting 0 AecbDbPipeFitting | Glued - Sch 40 - PVC Elbow | 4.00 Inch Glued - Sch 40 - PVC Elbow 90.0 Deg | CHWS (CHWS)
+put Elevation 132.0 -> 132.0 | start (0.0, 0.0, 132.0) end (237.3, 0.0, 132.0)
+put InsulationThickness 1.0 -> 1.0 | start (0.0, 0.0, 132.0) end (237.3, 0.0, 132.0)
+put SystemName Standard -> Standard
+put SystemName ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None)
+put StartPoint ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147024809), None)
+Break ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467260), None)
+PropertySetDefs: 5 ['PipeFittingElbowStyles', 'PipeStyles', 'SpaceEngineeringObjects', 'ThermalProperties', 'ZoneEngineeringObjects']
+PropertySets on a pipe: 0
+Graphs.Count 2
+saved <temp>/acadtest/mep_probe2/rp_probe2_after.dwg
+closed
+dialogs seen: []

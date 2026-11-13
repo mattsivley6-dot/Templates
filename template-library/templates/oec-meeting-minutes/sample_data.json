@@ -1,0 +1,95 @@
+{
+  "doc_title": "OEC PROGRESS MEETING MINUTES",
+  "project_line": "Sample Elementary School HVAC Replacement  |  Weekly Owner, Engineer, Contractor Meeting",
+  "owner": "Sample ISD",
+  "solicitation": "CSP 2026-0001",
+  "contractor": "Example Mechanical, LLC",
+  "engineer": "Sample Engineering, Inc.",
+  "meeting_date": "Wednesday, January 14, 2026, 1:00 PM",
+  "location_label": "Format",
+  "location": "Video call plus on site at Sample Elementary School",
+  "prepared_by": "Pat Doe, Project Manager, Example Mechanical, LLC",
+  "distribution": "All attendees and project file",
+  "doc_date": "2026-01-14",
+  "output_basename": "Sample_ES_OEC_Progress_Meeting_Minutes_2026-01-14",
+  "attendees": [
+    {
+      "name": "Pat Doe",
+      "organization": "Example Mechanical, LLC",
+      "role": "Project Manager / Contractor (on site)"
+    },
+    {
+      "name": "Alex Poe",
+      "organization": "Sample Engineering, Inc.",
+      "role": "Engineer of Record (on site)"
+    },
+    {
+      "name": "Sam Roe",
+      "organization": "Sample ISD",
+      "role": "Owner Representative (by phone)"
+    },
+    {
+      "name": "Jordan Lee",
+      "organization": "Sample Electric",
+      "role": "Electrical Foreman / Sub (on site)"
+    }
+  ],
+  "attendance_note": "Not in attendance: the controls subcontractor (copied).",
+  "sections": [
+    {
+      "title": "Purpose",
+      "items": [
+        "Weekly Owner, Engineer, and Contractor progress meeting. Items below were discussed and direction was given as noted."
+      ]
+    },
+    {
+      "title": "Schedule",
+      "items": [
+        "RTU-1 is set and connected. RTU-2 is scheduled to be set next week, weather permitting.",
+        "Start up is planned after both units are set and the controls are terminated."
+      ]
+    },
+    {
+      "title": "RFIs and Change Orders",
+      "items": [
+        "RFI-001 (RTU-2 curb adapter) is open. The Engineer will respond by the next meeting.",
+        "PCO-001 was submitted for the added curb adapter. The Owner will review it after the RFI-001 response."
+      ]
+    },
+    {
+      "title": "Electrical",
+      "items": [
+        "The sub reported the new disconnect for RTU-1 is installed. RTU-2 power will be pulled after the unit is set."
+      ]
+    },
+    {
+      "title": "Next Meeting",
+      "items": [
+        "Next meeting is Wednesday, January 21, 2026, 1:00 PM, same format."
+      ]
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Respond to RFI-001 (RTU-2 curb adapter)",
+      "responsible": "Engineer",
+      "target": "Next meeting"
+    },
+    {
+      "action": "Review PCO-001 after the RFI-001 response",
+      "responsible": "Owner",
+      "target": "After RFI"
+    },
+    {
+      "action": "Confirm crane date for RTU-2",
+      "responsible": "Contractor",
+      "target": "ASAP"
+    },
+    {
+      "action": "Pull power to RTU-2 after it is set",
+      "responsible": "Contractor / Electrical Sub",
+      "target": "In progress"
+    }
+  ],
+  "closing_extra": ""
+}

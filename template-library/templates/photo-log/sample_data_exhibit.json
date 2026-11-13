@@ -1,0 +1,39 @@
+{
+  "mode": "exhibit",
+  "doc_date": "2026-03-02",
+  "output_filename": "PA1 Photos - On-Site Delivery 03-02-2026 (Sample Elementary, EXIF+GPS).pdf",
+  "image_root": "sample_photos",
+  "title": "SAMPLE ELEMENTARY SCHOOL - SAMPLE ISD",
+  "subtitle_lines": [
+    "Stored Material Documentation - Pay Application No. 1 (Period 02/01/2026 to 02/28/2026)",
+    "Div 23 HVAC Material: rooftop unit package, Sample Supply quote Q-1001, PO-1001 ($10,000.00)"
+  ],
+  "metadata_note": [
+    "Capture date, time, and GPS coordinates per embedded image metadata (EXIF, phone camera).",
+    "Location: Sample Elementary School campus, 200 Example Avenue, Anytown, TX 75001 (on-site delivery). GPS coordinates are consistent with the project site."
+  ],
+  "footer": "PA No. 1 Stored-Material Backup   |   On-Site Delivery 03/02/2026",
+  "photos": [
+    {
+      "file": "IMG_0001.jpg",
+      "display": "IMG_0001.JPG",
+      "captured": "March 2, 2026 8:00 AM CST",
+      "gps": "0.000100, 0.000100",
+      "caption": "Delivery truck staged at the campus drive with the new rooftop units strapped on the flatbed, before the first pick."
+    },
+    {
+      "file": "IMG_0002.jpg",
+      "display": "IMG_0002.JPG",
+      "captured": "March 2, 2026 8:02 AM CST",
+      "gps": "0.000150, 0.000120",
+      "caption": "New rooftop unit field-marked RTU-1 on the flatbed. Shipping label visible."
+    },
+    {
+      "file": "IMG_0003.jpg",
+      "display": "IMG_0003.JPG",
+      "captured": "March 2, 2026 8:03 AM CST",
+      "gps": "0.000150, 0.000120",
+      "caption": "Unit data plate for RTU-1: model and serial number legible, matching the approved submittal. Confirms new, contract-specified equipment."
+    }
+  ]
+}

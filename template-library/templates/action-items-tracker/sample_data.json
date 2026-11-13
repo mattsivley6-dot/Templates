@@ -1,0 +1,95 @@
+{
+  "file_date_label": "2026-03-10",
+  "project_short": "Sample ES",
+  "orientation": "landscape",
+  "project_name": "Sample Elementary School HVAC Replacement",
+  "owner": "Sample ISD",
+  "csp_number": "2026-0001",
+  "source_line": "Snapshot from the Daily Construction Report DCR-2026-0310 and the OAC Meeting (03/10)",
+  "prepared_by": "Pat Doe, Project Manager",
+  "updated_date": "March 10, 2026",
+  "legend_text": "Priority: High / Med / Low.  Owner roles use trade labels for subcontractors.  This tracker is a working contractor record; financial items (PCOs, credits, pay applications) move through the change order and pay-application channels.",
+  "doc_created_iso": "2026-03-10T17:00:00",
+  "items": [
+    {
+      "id": "A-01",
+      "action": "RTU-1 curb: engineer to review the deck condition found at the curb opening and give written direction; hold the curb set at RTU-1 until directed.",
+      "owner": "PM / Engineer",
+      "due": "03/11",
+      "priority": "High",
+      "status": "Open (site visit 03/11)"
+    },
+    {
+      "id": "A-02",
+      "action": "Submit PCO-001 for the RTU-1 deck repair with a full breakdown (description, qty, unit cost, total; labor by hours and rates).",
+      "owner": "PM",
+      "due": "After direction",
+      "priority": "High",
+      "status": "Open"
+    },
+    {
+      "id": "A-03",
+      "action": "Send written notice of the concealed condition at RTU-1 to the owner and engineer per the contract.",
+      "owner": "PM",
+      "due": "03/11",
+      "priority": "High",
+      "status": "Open"
+    },
+    {
+      "id": "A-04",
+      "action": "Field verify the deck and support condition at each remaining curb as it is opened.",
+      "owner": "Field / PM",
+      "due": "Ongoing",
+      "priority": "Med",
+      "status": "In progress"
+    },
+    {
+      "id": "A-05",
+      "action": "Weatherproof every open curb at the end of each day.",
+      "owner": "Roofing / PM",
+      "due": "Daily",
+      "priority": "High",
+      "status": "In progress"
+    },
+    {
+      "id": "A-06",
+      "action": "RFI-001: confirm the start-up and commissioning sequence for RTU-1 and RTU-2 with the engineer.",
+      "owner": "PM / Engineer",
+      "due": "03/13",
+      "priority": "Med",
+      "status": "Submitted 03/09"
+    },
+    {
+      "id": "A-07",
+      "action": "Confirm the duct transition order with Sample Supply; final measure after the curbs are set.",
+      "owner": "PM / Shop",
+      "due": "Before unit set",
+      "priority": "Med",
+      "status": "Open"
+    },
+    {
+      "id": "A-08",
+      "action": "Sample Electric to confirm the disconnect locations at RTU-1 and RTU-2 against the submittals.",
+      "owner": "Electrical",
+      "due": "03/12",
+      "priority": "Med",
+      "status": "Open"
+    },
+    {
+      "id": "A-09",
+      "action": "Submit the monthly pay application for the period ending 03/31.",
+      "owner": "PM",
+      "due": "03/31",
+      "priority": "Med",
+      "status": "Not started"
+    },
+    {
+      "id": "A-10",
+      "action": "Continue before and after photo documentation of the roof, curbs and deck.",
+      "owner": "PM / Field",
+      "due": "Ongoing",
+      "priority": "Low",
+      "status": "Ongoing"
+    }
+  ]
+}

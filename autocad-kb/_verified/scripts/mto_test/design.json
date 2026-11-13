@@ -1,0 +1,140 @@
+[
+ {
+  "id": "R1",
+  "system": "CHWS",
+  "size": "4\"",
+  "layer": "M-CHWS",
+  "pts": [
+   [
+    0,
+    0,
+    120
+   ],
+   [
+    480,
+    0,
+    120
+   ],
+   [
+    480,
+    360,
+    120
+   ]
+  ],
+  "drawn_in": 840.0,
+  "starts_on": null,
+  "insulation": 0.0,
+  "new_handles": [
+   "101E393",
+   "101E39C",
+   "101E39D"
+  ]
+ },
+ {
+  "id": "R3",
+  "system": "CHWS",
+  "size": "2\"",
+  "layer": "M-CHWS",
+  "pts": [
+   [
+    240,
+    0,
+    120
+   ],
+   [
+    240,
+    240,
+    120
+   ]
+  ],
+  "drawn_in": 240.0,
+  "starts_on": "R1",
+  "insulation": 0.0,
+  "new_handles": [
+   "101E3BD",
+   "101E3BE",
+   "101E3C3",
+   "101E3C4",
+   "101E3C5"
+  ]
+ },
+ {
+  "id": "R2",
+  "system": "CHWR",
+  "size": "2\"",
+  "layer": "M-CHWR",
+  "pts": [
+   [
+    0,
+    -60,
+    120
+   ],
+   [
+    360,
+    -60,
+    120
+   ],
+   [
+    360,
+    -300,
+    120
+   ]
+  ],
+  "drawn_in": 600.0,
+  "starts_on": null,
+  "insulation": 1.5,
+  "new_handles": [
+   "101E3DC",
+   "101E3E1",
+   "101E3E2"
+  ]
+ },
+ {
+  "id": "R4",
+  "system": "CHWR",
+  "size": "1-1/2\"",
+  "layer": "M-HOLD",
+  "pts": [
+   [
+    600,
+    0,
+    120
+   ],
+   [
+    1200,
+    0,
+    114
+   ]
+  ],
+  "drawn_in": 600.0299992500375,
+  "starts_on": null,
+  "insulation": 0.0,
+  "new_handles": [
+   "101E3F7"
+  ]
+ },
+ {
+  "id": "R5",
+  "system": "Standard",
+  "size": "3/4\"",
+  "layer": "M-Pipe-Std",
+  "pts": [
+   [
+    0,
+    600,
+    120
+   ],
+   [
+    120,
+    600,
+    120
+   ]
+  ],
+  "drawn_in": 120.0,
+  "starts_on": null,
+  "insulation": 0.0,
+  "new_handles": [
+   "101E40C"
+  ]
+ }
+]

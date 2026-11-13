@@ -1,0 +1,103 @@
+{
+  "doc_title": "SITE WALK / FIELD MEETING MINUTES",
+  "project_line": "Sample Elementary School HVAC Replacement  |  RTU-1 Deck Condition",
+  "owner": "Sample ISD",
+  "solicitation": "Project 2026-0001",
+  "contractor": "Example Mechanical, LLC",
+  "engineer": "Sample Engineering, Inc.",
+  "walk_date": "Wednesday, March 11, 2026, approximately 8:00 AM",
+  "location": "Sample Elementary School, 200 Example Avenue, Anytown, TX 75001, rooftop at RTU-1",
+  "prepared_by": "Pat Doe, Project Manager, Example Mechanical, LLC",
+  "distribution": "All attendees and project file",
+  "doc_date": "2026-03-11",
+  "output_basename": "Sample_ES_Site_Walk_Minutes_2026-03-11",
+  "attendees": [
+    {
+      "name": "Pat Doe",
+      "organization": "Example Mechanical, LLC",
+      "role": "Project Manager / Contractor"
+    },
+    {
+      "name": "Alex Poe",
+      "organization": "Sample Engineering, Inc.",
+      "role": "Engineer of Record"
+    },
+    {
+      "name": "Sam Roe",
+      "organization": "Sample ISD",
+      "role": "Owner Representative"
+    },
+    {
+      "name": "Jordan Lee",
+      "organization": "Sample Electric",
+      "role": "Electrical Foreman"
+    }
+  ],
+  "attendance_note": "Also on site: the roofing crew.",
+  "sections": [
+    {
+      "title": "Purpose",
+      "items": [
+        "Walk the roof at RTU-1 with the engineer to review the deck condition found when the curb was opened, and get direction before the new unit is set. The curb set at RTU-1 is on hold; RTU-2 is proceeding."
+      ]
+    },
+    {
+      "title": "Condition Confirmed",
+      "items": [
+        "The deck along one side of the RTU-1 opening is deteriorated and will not support the new curb as is. The rest of the opening bears on the existing steel."
+      ]
+    },
+    {
+      "title": "Engineer's Direction",
+      "items": [
+        "The engineer directed adding one support angle along the affected side and replacing the deteriorated deck section with matching metal deck, then rebuilding the roof in kind.",
+        "The engineer will issue a written detail within one business day."
+      ]
+    },
+    {
+      "title": "Approval Routing and Change Order",
+      "items": [
+        "The contractor will price the repair and submit PCO-001 with a full breakdown (description, quantity, unit cost, total, and labor by hours and rates). Work proceeds on the owner's written authorization."
+      ]
+    },
+    {
+      "title": "Schedule Impact",
+      "items": [
+        "The RTU-1 unit set moves out about one week to allow the repair. RTU-2 is not affected. The contractor will confirm the revised set date once the detail is issued."
+      ]
+    },
+    {
+      "title": "Interim Weatherproofing",
+      "items": [
+        "Open curbs are covered and weatherproofed at the end of each day until the units are set."
+      ]
+    }
+  ],
+  "action_items": [
+    {
+      "action": "Issue the written detail for the RTU-1 support angle and deck repair",
+      "responsible": "Engineer",
+      "target": "03/12"
+    },
+    {
+      "action": "Price the repair and submit PCO-001 with a full breakdown",
+      "responsible": "Contractor",
+      "target": "After detail"
+    },
+    {
+      "action": "Authorize the change and direct the work",
+      "responsible": "Owner",
+      "target": "On receipt of price"
+    },
+    {
+      "action": "Weatherproof every open curb daily",
+      "responsible": "Roofing / Contractor",
+      "target": "Daily"
+    },
+    {
+      "action": "Confirm the revised RTU-1 set date",
+      "responsible": "Contractor",
+      "target": "After detail"
+    }
+  ]
+}

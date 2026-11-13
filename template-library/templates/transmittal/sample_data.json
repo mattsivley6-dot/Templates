@@ -1,0 +1,60 @@
+{
+  "doc_date": "2026-03-02",
+  "output_filename": "J-0001_Transmittal_SampleSupply_Div23_ProductData.docx",
+  "pdf_title": "Transmittal - Division 23 Product Data Submittal",
+  "transmittal": {
+    "date": "3/2/2026",
+    "to": "Sample Engineering, Inc.",
+    "attn": "Alex Poe",
+    "to_address_lines": ["100 Sample Street, Suite 300", "Anytown, TX 75000"],
+    "via": "Email",
+    "project": "Sample Elementary School HVAC Replacement",
+    "project_number": "2026-0001 / J-0001",
+    "transmitted": "HEREWITH",
+    "items": ["SUBMITTALS"],
+    "lines": [
+      {"quantity": "1", "dated": "3/2/2026", "description": "Division 23 Rooftop Unit Product Data (RTU-1, RTU-2), Revision 0"}
+    ],
+    "remarks": "Rooftop unit product data transmitted for Engineer review.",
+    "by": ""
+  },
+  "cover_sheet": {
+    "enabled": true,
+    "division_line": "Division 23 00 00  -  Heating, Ventilating and Air Conditioning",
+    "project_fields": [
+      ["Project Name:", "Sample Elementary School HVAC Replacement"],
+      ["Contract No.:", "2026-0001"],
+      ["Engineer Project No.:", "[Engineer Project No.]"],
+      ["Location:", "200 Example Avenue, Anytown, TX 75001"],
+      ["Date:", "March 2, 2026"],
+      ["Submittal No.:", "23 00 00-01"],
+      ["Submittal Type:", "Product Data - Revision 0"]
+    ],
+    "engineer_fields": [
+      ["Firm:", "Sample Engineering, Inc."],
+      ["Attention:", "Alex Poe"],
+      ["Address:", "100 Sample Street, Suite 300, Anytown, TX 75000"]
+    ],
+    "contractor_heading": "PRIME CONTRACTOR / HVAC CONTRACTOR",
+    "third_party_heading": "HVAC EQUIPMENT SUPPLIER",
+    "third_party_fields": [
+      ["Firm:", "Sample Supply"],
+      ["Contact:", "[Supplier Contact]"],
+      ["Email:", "sales@example.com"],
+      ["PO Number:", "PO-1001"]
+    ],
+    "action_marked": "",
+    "action_statement": "Contractor has reviewed the submittal data against the specifications. Forwarded to Engineer for review and comment.",
+    "signature_name": "",
+    "signature_date": "March 2, 2026"
+  },
+  "index": {
+    "enabled": true,
+    "division_line": "Division 23 00 00  -  Heating, Ventilating and Air Conditioning",
+    "rows": [
+      ["1", "Rooftop Unit Product Data, RTU-1 and RTU-2", "23 74 13"]
+    ],
+    "deviations_note": "Per the contract specifications, the following deviations are noted where the submittal differs from the contract documents. None known at this time unless listed below.",
+    "deviations": []
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "job_slug": "Sample_Elementary",
+    "pco_number": "001",
+    "file_slug": "RTU-1",
+    "pdf_title": "Sample Elementary PCO",
+    "created": "2026-03-02",
+    "output_dir": null
+  },
+  "rates": {
+    "foreman_name": "Working Foreman",
+    "tech_name": "Working Tech",
+    "foreman_rate": 100.00,
+    "tech_rate": 75.00
+  },
+  "narrative": {
+    "pco_label": "PCO-001",
+    "subtitle": "RTU-1 curb support repair (concealed roof deck condition)",
+    "header_rows": [
+      ["Project:", "Sample Elementary School HVAC Replacement (Sample ISD)"],
+      ["Reference:", "RFI-001; Sample Engineering, Inc. repair detail"],
+      ["Project #:", "2026-0001"],
+      ["Owner:", "Sample ISD"],
+      ["Engineer:", "Sample Engineering, Inc. (Alex Poe, PE)"],
+      ["Contractor:", "{{company.legal_name}}"],
+      ["Date:", "March 2, 2026"]
+    ],
+    "callout_rows": [
+      ["Amount:", "<b>$10,000.00, firm.</b> The Engineer directed repair of a concealed roof deck condition at RTU-1."],
+      ["Schedule:", "Holding the contract completion date. No added time requested now (Section 4)."],
+      ["Funding:", "Owner Contingency ([clause]). Pays after the signed Change Order."]
+    ],
+    "sections": [
+      {
+        "heading": "1. WHAT WE FOUND",
+        "blocks": [
+          {"type": "bullet", "text": "We opened the roof at RTU-1 and found no metal deck under one side of the curb. Not shown on the plans."},
+          {"type": "bullet", "text": "We stopped, left it as found, and sent RFI-001. Concealed condition ([clause]). Notice first."}
+        ]
+      },
+      {
+        "heading": "2. THE FIX (Engineer directed)",
+        "blocks": [
+          {"type": "bullet", "text": "Sample Engineering, Inc. (Alex Poe, PE) issued the detail: weld steel angle supports (L3x3x1/4), add new 22 gauge deck, reset the curb, reroof to match."}
+        ]
+      },
+      {
+        "heading": "3. COST (broken out)",
+        "blocks": [
+          {
+            "type": "cost_table",
+            "col_widths": [5.5, 1.0],
+            "rows": [
+              {"label": "A. Subcontractor and vendor work", "blank": true},
+              {"label": "A1. Steel angle and new metal deck (welder subcontractor), itemized in the attachment", "amount": 2500.00},
+              {"label": "A2. Reroof the area opened for the fix (roofer subcontractor), itemized in the attachment", "amount": 4000.00},
+              {"label": "A3. Crane, added pick for the repair (vendor estimate)", "amount": 1000.00},
+              {"label": "Subtotal A", "amount": 7500.00, "bold": true},
+              {"label": "B. Contractor field labor (rates in the itemization)", "blank": true},
+              {"label": "B1. Working Foreman 10 hr and Working Tech 10 hr: rig and assist the weld and set the deck", "hours": {"foreman": 10, "tech": 10}},
+              {"label": "B2. Working Tech 6 hr and protection material: protect the space below during hot work", "hours": {"tech": 6, "material": 300.0}},
+              {"label": "Subtotal B", "amount": 2500.00, "bold": true},
+              {"label": "TOTAL (firm)", "amount": 10000.00, "bold": true}
+            ]
+          },
+          {"type": "note", "text": "Each A line is that firm's own price. The welder and roofer are broken out in the attachment."}
+        ]
+      },
+      {
+        "heading": "4. SCHEDULE",
+        "blocks": [
+          {"type": "bullet", "text": "We cannot set the unit until the deck is fixed. We hold the completion date and will add crews if needed."},
+          {"type": "bullet", "text": "We reserve added time only if the condition or abnormal weather still affects the date ([clause])."}
+        ]
+      },
+      {
+        "heading": "5. NOTES",
+        "blocks": [
+          {"type": "bullet", "text": "Concealed condition ([clause]): notice given, not disturbed."},
+          {"type": "bullet", "text": "Reserved, only if incurred with backup: added cost to hold the date, or deck repair beyond the area shown."}
+        ]
+      },
+      {"signoffs": true},
+      {
+        "heading": "6. ATTACHED",
+        "blocks": [
+          {"type": "bullet", "text": "Itemization. Engineer's detail. RFI-001. Welder proposal. Roofer proposal. Crane estimate."}
+        ]
+      }
+    ],
+    "signoff_heading": "SIGN OFFS (all three sign before the changed work is billed)",
+    "signoffs": [
+      {"party": "Contractor: {{company.legal_name}}", "name_role": "{{company.pm_name}}, {{company.pm_title}}"},
+      {"party": "Engineer: Sample Engineering, Inc.", "name_role": "Alex Poe, PE", "extra": "[ ] Approve&nbsp;&nbsp; [ ] Approve as noted&nbsp;&nbsp; [ ] Reject"},
+      {"party": "Owner: Sample ISD", "name_role": "Sam Roe, Owner Representative"}
+    ]
+  },
+  "itemization": {
+    "enabled": true,
+    "project_short": "Sample Elementary School",
+    "pco_label": "PCO-001 (RTU-1)",
+    "contractor_line": "{{company.legal_name}}",
+    "intro": "Subcontractor and vendor lines are each firm's own price.",
+    "blocks": [
+      {"type": "heading", "text": "Section A1. Welder subcontractor: firm $2,500.00"},
+      {"type": "note", "text": "Subcontractor firm lump. The table allocates the price into the Engineer's format: materials by item with quantity and unit cost, labor as men times hours times rate, trip on its own line."},
+      {
+        "type": "welder_detail",
+        "materials": [
+          ["Steel angle, L3x3x1/4", "10 LF", 20.00, 200.00],
+          ["Metal deck, 22 gauge", "50 SF", 10.00, 500.00],
+          ["Gas, fasteners, misc", "1 LS", 100.00, 100.00]
+        ],
+        "labor": [
+          ["Welders: cut and weld the angle supports and set the deck", 2, 8.0, 100.00, 1600.00]
+        ],
+        "trip": 100.00,
+        "total": 2500.00
+      },
+      {"type": "heading", "text": "Section A2. Roofer subcontractor: firm $4,000.00"},
+      {"type": "note", "text": "Pass through at the roofer's firm price. Every line foots to the total. Scope: remove the opened area down to the deck, replace insulation and cover board, and reroof to match so the roof warranty holds."},
+      {
+        "type": "roofer_breakout",
+        "title": "Roofer cost, itemized (roofer proposal)",
+        "total_label": "Firm total (roofer cost)",
+        "lines": [
+          ["Insulation and cover board", "material", 500.00],
+          ["Membrane and flashing", "material", 500.00],
+          ["Kettle and equipment", "equipment", 500.00],
+          ["Labor and installation", "labor", 2000.00],
+          ["Overhead, profit, and insurance", "markup", 500.00]
+        ]
+      },
+      {"type": "heading", "text": "Section A3. Crane, vendor: $1,000.00"},
+      {"type": "note", "text": "Vendor price from the crane estimate for the added pick. Trues to the actual invoice. Estimate attached."},
+      {"type": "spacer", "height": 4},
+      {"type": "heading", "text": "Section B. Contractor field labor, by role"},
+      {
+        "type": "labor_table",
+        "lines": [
+          ["C1", "Working Foreman: rig and assist the weld, set the new metal deck, and reset the curb.", 10, 0, 0.0],
+          ["C2", "Working Tech: support the welder, hand material, control the area, clean up.", 0, 10, 0.0],
+          ["C3", "Working Tech: protect the space below during hot work; protection material.", 0, 6, 300.0]
+        ]
+      },
+      {"type": "note", "text": "Labor priced at the rates shown at the top of this itemization."},
+      {"type": "heading", "text": "Totals"},
+      {
+        "type": "three_col",
+        "rows": [
+          ["A1. Welder subcontractor, firm", "subcontract", 2500.00],
+          ["A2. Roofer subcontractor, firm", "subcontract", 4000.00],
+          ["A3. Crane, vendor", "vendor", 1000.00],
+          ["B. Contractor field labor", "labor", 2500.00]
+        ],
+        "total_label": "TOTAL (firm)",
+        "total": 10000.00
+      }
+    ]
+  },
+  "attachments": []
+}

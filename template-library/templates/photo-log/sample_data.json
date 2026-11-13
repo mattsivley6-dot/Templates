@@ -1,0 +1,77 @@
+{
+  "mode": "daily",
+  "doc_date": "2026-03-03",
+  "output_filename": "2026-03-03 Photo Log - Sample Elementary.pdf",
+  "image_root": "sample_photos",
+  "doc_type_label": "DAILY PHOTO LOG",
+  "project_label": "Sample Elementary School HVAC Replacement",
+  "client": "Sample ISD",
+  "date_label": "Date: Tuesday, 03/03/2026",
+  "captured_label": "03/03/2026",
+  "prepared_by": "Pat Doe",
+  "sections": [
+    {
+      "title": "ROOF CURBS SET AND FIELD MEASUREMENT",
+      "photos": [
+        {
+          "file": "daily_01.jpg",
+          "caption": "New roof curb set at RTU-1. The roofer set the curb and temporarily dried it in so the open penetration is weather tight overnight."
+        },
+        {
+          "file": "daily_02.jpg",
+          "caption": "Field measuring the new curb against the existing roof opening at RTU-2. The opening does not match the new curb, which drove RFI-001."
+        }
+      ]
+    },
+    {
+      "title": "RTU CURB OUT OF LEVEL (RFI-001)",
+      "photos": [
+        {
+          "file": "daily_03.jpg",
+          "video_still": true,
+          "caption": "RTU-2 curb sitting out of level (RFI-001). To be leveled per the engineer's direction. Video still, 03/03/2026."
+        },
+        {
+          "file": "daily_04.jpg",
+          "video_still": true,
+          "caption": "RTU-2 curb, second view showing the gap at the low corner (RFI-001). Video still, 03/03/2026."
+        }
+      ]
+    },
+    {
+      "title": "UTILITY LOCATE BEFORE TRENCHING",
+      "photos": [
+        {
+          "file": "daily_05.jpg",
+          "captured": "03/03/2026 9:15 AM",
+          "caption": "Hand dug pothole exposing a marked underground utility before the conduit trench, to keep the trench clear of it."
+        },
+        {
+          "file": "daily_06.jpg",
+          "caption": "Excavation at the equipment pad, ringed with safety fencing."
+        }
+      ]
+    }
+  ],
+  "video_index": {
+    "intro_line": "Date: Tuesday, 03/03/2026   |   3 video clips, listed by capture time",
+    "note": "Clips are indexed by EXIF capture time and correlated to the day's activities. Originals retained in the job photo folder.",
+    "videos": [
+      {
+        "file": "VID_0001.MOV",
+        "time": "8:05 AM",
+        "activity": "Roof walk; RTU-1 curb set and dried in."
+      },
+      {
+        "file": "VID_0002.MOV",
+        "time": "10:40 AM",
+        "activity": "RTU-2 curb out of level, low corner shown (RFI-001)."
+      },
+      {
+        "file": "VID_0003.MOV",
+        "time": "1:20 PM",
+        "activity": "Utility pothole at the equipment pad before trenching."
+      }
+    ]
+  }
+}

@@ -1,0 +1,285 @@
+[
+ {
+  "handle": "101E393",
+  "object": "AecbDbPipe",
+  "layer": "M-CHWS",
+  "SizeName": "4 Inch Commercial Pipe",
+  "SystemName": "CHWS (CHWS)",
+  "PartDescription": "Commercial Pipe",
+  "Length": 234.75300000000007,
+  "CutLength": 234.75300000000007,
+  "StartPoint": [
+   242.547,
+   -1.665525832196248e-16,
+   120.0
+  ],
+  "EndPoint": [
+   477.30000000000007,
+   0.0,
+   120.0
+  ],
+  "NominalSize": 4.0,
+  "InsulationThickness": 0.0
+ },
+ {
+  "handle": "101E39C",
+  "object": "AecbDbPipeFitting",
+  "layer": "M-CHWS",
+  "SizeName": "4.00 Inch Glued - Sch 40 - PVC Elbow 90.0 Deg",
+  "SystemName": "CHWS (CHWS)",
+  "PartDescription": "Glued - Sch 40 - PVC Elbow",
+  "connectors": [
+   [
+    477.30000000000007,
+    0.0,
+    120.0
+   ],
+   [
+    480.00000000000006,
+    2.7000000000000037,
+    120.0
+   ]
+  ]
+ },
+ {
+  "handle": "101E39D",
+  "object": "AecbDbPipe",
+  "layer": "M-CHWS",
+  "SizeName": "4 Inch Commercial Pipe",
+  "SystemName": "CHWS (CHWS)",
+  "PartDescription": "Commercial Pipe",
+  "Length": 357.3,
+  "CutLength": 357.3,
+  "StartPoint": [
+   480.00000000000006,
+   2.7000000000000037,
+   120.0
+  ],
+  "EndPoint": [
+   480.00000000000006,
+   360.0,
+   120.0
+  ],
+  "NominalSize": 4.0,
+  "InsulationThickness": 0.0
+ },
+ {
+  "handle": "101E3BD",
+  "object": "AecbDbPipe",
+  "layer": "M-CHWS",
+  "SizeName": "4 Inch Commercial Pipe",
+  "SystemName": "CHWS (CHWS)",
+  "PartDescription": "Commercial Pipe",
+  "Length": 237.453,
+  "CutLength": 237.453,
+  "StartPoint": [
+   0.0,
+   0.0,
+   120.0
+  ],
+  "EndPoint": [
+   237.453,
+   0.0,
+   120.0
+  ],
+  "NominalSize": 4.0,
+  "InsulationThickness": 0.0
+ },
+ {
+  "handle": "101E3BE",
+  "object": "AecbDbPipeFitting",
+  "layer": "M-CHWS",
+  "SizeName": "4.00 Inch Glued - Sch 40 - PVC Tee",
+  "SystemName": "CHWS (CHWS)",
+  "PartDescription": "Glued - Sch 40 - PVC Tee",
+  "connectors": [
+   [
+    237.453,
+    0.0,
+    120.0
+   ],
+   [
+    242.547,
+    -1.665525832196248e-16,
+    120.0
+   ],
+   [
+    240.0,
+    2.5469999999999997,
+    120.0
+   ]
+  ]
+ },
+ {
+  "handle": "101E3C3",
+  "object": "AecbDbPipe",
+  "layer": "M-CHWS",
+  "SizeName": "4 Inch Commercial Pipe",
+  "SystemName": "CHWS (CHWS)",
+  "PartDescription": "Commercial Pipe",
+  "Length": 5.2031,
+  "CutLength": 5.2031,
+  "StartPoint": [
+   240.0,
+   7.7501,
+   120.0
+  ],
+  "EndPoint": [
+   240.0,
+   2.5469999999999997,
+   120.0
+  ],
+  "NominalSize": 4.0,
+  "InsulationThickness": 0.0
+ },
+ {
+  "handle": "101E3C4",
+  "object": "AecbDbPipeFitting",
+  "layer": "M-CHWS",
+  "SizeName": "4.00 Inch x 2.00 Inch Glued - Sch 40 - Concentric Reducer",
+  "SystemName": "CHWS (CHWS)",
+  "PartDescription": "Glued - Sch 40 - Concentric Reducer",
+  "connectors": [
+   [
+    240.0,
+    7.7501,
+    120.0
+   ],
+   [
+    240.0,
+    9.656299999999998,
+    120.0
+   ]
+  ]
+ },
+ {
+  "handle": "101E3C5",
+  "object": "AecbDbPipe",
+  "layer": "M-CHWS",
+  "SizeName": "2 Inch Commercial Pipe",
+  "SystemName": "CHWS (CHWS)",
+  "PartDescription": "Commercial Pipe",
+  "Length": 230.34369999999996,
+  "CutLength": 230.34369999999996,
+  "StartPoint": [
+   240.0,
+   9.656299999999998,
+   120.0
+  ],
+  "EndPoint": [
+   240.00000000000006,
+   239.99999999999994,
+   120.0
+  ],
+  "NominalSize": 2.0,
+  "InsulationThickness": 0.0
+ },
+ {
+  "handle": "101E3DC",
+  "object": "AecbDbPipe",
+  "layer": "M-CHWR",
+  "SizeName": "2 Inch Commercial Pipe",
+  "SystemName": "CHWR (CHWR)",
+  "PartDescription": "Commercial Pipe",
+  "Length": 358.5812,
+  "CutLength": 358.5812,
+  "StartPoint": [
+   0.0,
+   -60.0,
+   120.0
+  ],
+  "EndPoint": [
+   358.5812,
+   -60.0,
+   120.0
+  ],
+  "NominalSize": 2.0,
+  "InsulationThickness": 1.5
+ },
+ {
+  "handle": "101E3E1",
+  "object": "AecbDbPipeFitting",
+  "layer": "M-CHWR",
+  "SizeName": "2.00 Inch Glued - Sch 40 - PVC Elbow 90.0 Deg",
+  "SystemName": "CHWR (CHWR)",
+  "PartDescription": "Glued - Sch 40 - PVC Elbow",
+  "connectors": [
+   [
+    358.5812,
+    -60.0,
+    120.0
+   ],
+   [
+    360.0,
+    -61.418800000000005,
+    120.0
+   ]
+  ]
+ },
+ {
+  "handle": "101E3E2",
+  "object": "AecbDbPipe",
+  "layer": "M-CHWR",
+  "SizeName": "2 Inch Commercial Pipe",
+  "SystemName": "CHWR (CHWR)",
+  "PartDescription": "Commercial Pipe",
+  "Length": 238.5812,
+  "CutLength": 238.5812,
+  "StartPoint": [
+   360.0,
+   -61.418800000000005,
+   120.0
+  ],
+  "EndPoint": [
+   359.99999999999983,
+   -300.0,
+   120.0
+  ],
+  "NominalSize": 2.0,
+  "InsulationThickness": 1.5
+ },
+ {
+  "handle": "101E3F7",
+  "object": "AecbDbPipe",
+  "layer": "M-HOLD",
+  "SizeName": "1-1/2 Inch Commercial Pipe",
+  "SystemName": "CHWR (CHWR)",
+  "PartDescription": "Commercial Pipe",
+  "Length": 600.0299992500375,
+  "CutLength": 600.0299992500375,
+  "StartPoint": [
+   600.0,
+   0.0,
+   120.0
+  ],
+  "EndPoint": [
+   1200.0,
+   0.0,
+   114.0
+  ],
+  "NominalSize": 1.5,
+  "InsulationThickness": 0.0
+ },
+ {
+  "handle": "101E40C",
+  "object": "AecbDbPipe",
+  "layer": "M-Pipe-Std",
+  "SizeName": "3/4 Inch Commercial Pipe",
+  "SystemName": "Standard",
+  "PartDescription": "Commercial Pipe",
+  "Length": 120.0,
+  "CutLength": 120.0,
+  "StartPoint": [
+   0.0,
+   600.0,
+   120.0
+  ],
+  "EndPoint": [
+   120.0,
+   600.0,
+   120.0
+  ],
+  "NominalSize": 0.75,
+  "InsulationThickness": 0.0
+ }
+]

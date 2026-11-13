@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "pdf_date": "D:20260701120000-06'00'"
+  },
+  "matrix": {
+    "output_name": "Warranty Matrix.pdf",
+    "project": "Sample Elementary School HVAC Replacement - Sample ISD",
+    "commencement": "June 30, 2026",
+    "rows": [
+      {
+        "item": "HVAC System - Overall Installation",
+        "item_detail": "",
+        "manufacturer": "Example Mechanical, LLC",
+        "warranty_type": "Contractor Workmanship Warranty",
+        "term": "1 Year",
+        "start_date": "06/30/2026",
+        "end_date": "06/30/2027",
+        "claim_contact": "Example Mechanical\n(555) 010-0100"
+      },
+      {
+        "item": "Air-Cooled Chiller",
+        "item_detail": "(CH-1)",
+        "manufacturer": "Sample Chiller Co.",
+        "warranty_type": "Manufacturer Limited Warranty",
+        "term": "1 Year",
+        "start_date": "06/30/2026",
+        "end_date": "06/30/2027",
+        "claim_contact": "www.example.com/chiller-warranty"
+      },
+      {
+        "item": "Chiller Compressors",
+        "item_detail": "(CH-1, parts only)",
+        "manufacturer": "Sample Chiller Co.",
+        "warranty_type": "Extended Parts Warranty",
+        "term": "5 Years",
+        "start_date": "06/30/2026",
+        "end_date": "06/30/2031",
+        "claim_contact": "www.example.com/chiller-warranty"
+      },
+      {
+        "item": "Chilled Water Pumps",
+        "item_detail": "(P-1, P-2)",
+        "manufacturer": "Sample Pump Co.",
+        "warranty_type": "Manufacturer Limited Warranty",
+        "term": "24 Months",
+        "start_date": "06/30/2026",
+        "end_date": "06/30/2028",
+        "claim_contact": "Sample Supply\n(555) 010-0105"
+      },
+      {
+        "item": "Building Controls",
+        "item_detail": "(thermostats, sensors, controllers)",
+        "manufacturer": "Sample Controls Co.",
+        "warranty_type": "Manufacturer Limited Warranty",
+        "term": "2 Years",
+        "start_date": "06/30/2026",
+        "end_date": "06/30/2028",
+        "claim_contact": "www.example.com/controls/support"
+      },
+      {
+        "item": "Variable Frequency Drives",
+        "item_detail": "(VFD-1, VFD-2)",
+        "manufacturer": "Sample Drives Co.",
+        "warranty_type": "Manufacturer Limited Warranty",
+        "term": "24 Months",
+        "start_date": "06/30/2026",
+        "end_date": "06/30/2028",
+        "claim_contact": "Sample Supply\n(555) 010-0105"
+      }
+    ]
+  },
+  "binder": {
+    "output_name": "Warranty Binder.pdf",
+    "title": "Sample Elementary School HVAC Replacement",
+    "accent_hex": "4F81BD",
+    "contacts": [
+      {
+        "heading": "Owner",
+        "company": "Sample ISD",
+        "contact": "Sam Roe",
+        "phone": "(555) 010-0102",
+        "email": "sam.roe@example.com"
+      },
+      {
+        "heading": "Engineer",
+        "company": "Sample Engineering, Inc.",
+        "contact": "Alex Poe",
+        "phone": "(555) 010-0103",
+        "email": "alex.poe@example.com"
+      },
+      {
+        "heading": "Mechanical Contractor",
+        "company": "Example Mechanical, LLC",
+        "contact": "Pat Doe",
+        "phone": "(555) 010-0100 (Office); (555) 010-0101 (Mobile)",
+        "email": "pat.doe@example.com"
+      },
+      {
+        "heading": "Electrical Subcontractor",
+        "company": "Sample Electric",
+        "contact": "Jordan Lee",
+        "phone": "(555) 010-0104",
+        "email": "jordan.lee@example.com"
+      }
+    ],
+    "startup_date": "June 30, 2026",
+    "front_attachments": [
+      {
+        "label": "Equipment startup report (placeholder)",
+        "path": "sample_docs/startup_report_rtu.pdf"
+      }
+    ],
+    "sections": [
+      {
+        "number": "1",
+        "title": "Sample Chiller Co. 1-Year Limited Warranty and 5-Year Compressor Warranty",
+        "subitems": [
+          "Air-Cooled Chiller (CH-1)"
+        ],
+        "path": "sample_docs/chiller_warranty.pdf"
+      },
+      {
+        "number": "2",
+        "title": "Sample Pump Co. 24-Month Limited Warranty",
+        "subitems": [
+          "Chilled Water Pump (P-1)",
+          "Chilled Water Pump (P-2)"
+        ],
+        "path": "sample_docs/pump_warranty.pdf"
+      },
+      {
+        "number": "3",
+        "title": "Sample Controls Co. 2-Year Limited Warranty",
+        "subitems": [],
+        "path": "sample_docs/controls_warranty.pdf"
+      },
+      {
+        "number": "4",
+        "title": "Sample Drives Co. 24-Month Limited Warranty",
+        "subitems": [
+          "Variable Frequency Drives (VFD-1, VFD-2)"
+        ],
+        "path": "sample_docs/vfd_warranty.pdf"
+      }
+    ]
+  }
+}

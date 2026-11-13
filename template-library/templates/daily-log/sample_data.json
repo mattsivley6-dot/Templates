@@ -1,0 +1,110 @@
+{
+  "file_date_label": "2026-03-10 to 11",
+  "project_short": "Sample ES",
+  "project_name": "Sample Elementary School HVAC Replacement",
+  "owner": "Sample ISD",
+  "report_no": "DCR-2026-0310",
+  "report_date_word": "Dates",
+  "report_date_text": "Tuesday, March 10 and Wednesday, March 11, 2026",
+  "contract_text": "Project 2026-0001, Job J-0001",
+  "completion_target": "May 29, 2026",
+  "prepared_by": "Pat Doe, Project Manager",
+  "weather_headers": ["Weather", "Temperature", "Precipitation", "Weather Delay"],
+  "weather_values": ["Clear both days", "Mild", "None", "None"],
+  "general_conditions": "Two productive field days. On March 10 the crew opened the curbs at RTU-1 and RTU-2 and found deteriorated deck at the RTU-1 opening; the curb set at RTU-1 is on hold pending the engineer's direction. The OAC meeting was held that afternoon. On March 11 the engineer walked RTU-1 and gave verbal direction for a deck repair, written direction to follow. RTU-2 curb work continued. No lost time either day.",
+  "sections": [
+    {
+      "title": "SUMMARY (DAYS AT A GLANCE)",
+      "type": "bullets",
+      "items": [
+        "March 10: curbs opened at RTU-1 and RTU-2. Deteriorated deck found at the RTU-1 opening; curb set at RTU-1 held.",
+        "March 10: weekly OAC meeting held with the owner and engineer (minutes filed separately).",
+        "March 11: the engineer walked RTU-1 and gave verbal direction for a deck repair; written direction to follow.",
+        "March 11: RTU-2 curb adapter set and roofed in."
+      ]
+    },
+    {
+      "title": "TRADES / PARTIES ON SITE OR ENGAGED",
+      "type": "table",
+      "headers": ["Trade / Party", "Activity", "Day"],
+      "col_widths_in": [1.7, 4.6, 0.7],
+      "rows": [
+        ["HVAC (Contractor)", "PM both days: curb openings, deck condition at RTU-1, OAC meeting, coordination with the engineer", "3/10, 3/11"],
+        ["Roofing", "Opened roofing at RTU-1 and RTU-2; roofed in RTU-2; weatherproofed RTU-1 at day end", "3/10, 3/11"],
+        ["Electrical (Sample Electric)", "Jordan Lee: verified disconnect locations at RTU-1 and RTU-2", "3/11"],
+        ["Engineer (Sample Engineering, Inc.)", "Alex Poe: OAC meeting; site walk at RTU-1", "3/10, 3/11"],
+        ["Owner (Sample ISD)", "Sam Roe: OAC meeting", "3/10"]
+      ]
+    },
+    {
+      "title": "RTU-1 DECK CONDITION (PCO-001)",
+      "type": "bullets",
+      "items": [
+        "The deck at the RTU-1 opening is deteriorated along one side and will not support the new curb as is.",
+        "The engineer gave verbal direction on March 11 to add support steel and replace the affected deck section. Written direction to follow.",
+        "Notice of concealed condition sent to the owner and engineer per the contract. PCO-001 will follow with a full breakdown."
+      ]
+    },
+    {
+      "title": "OAC MEETING (3/10)",
+      "type": "bullets",
+      "items": [
+        "Weekly owner, architect/engineer and contractor meeting held on site.",
+        "RFI-001 (start-up and commissioning sequence) is with the engineer for response.",
+        "Full minutes are filed separately."
+      ]
+    },
+    {
+      "title": "SCHEDULE",
+      "type": "bullets",
+      "items": [
+        "The RTU-1 deck repair now gates the RTU-1 unit set. RTU-2 remains on schedule.",
+        "Weather is tracked separately for any time only (no cost) extension."
+      ]
+    },
+    {
+      "title": "SAFETY",
+      "type": "bullets",
+      "items": [
+        "No incidents, injuries, or near misses reported either day.",
+        "Open curbs covered and weatherproofed at day end. Roof edge protection in place."
+      ]
+    },
+    {
+      "title": "LOOK AHEAD",
+      "type": "bullets",
+      "items": [
+        "Receive written direction from the engineer for the RTU-1 deck repair, then submit PCO-001.",
+        "Confirm the duct transition order with Sample Supply.",
+        "Set RTU-2 and reconnect power, controls, gas and condensate."
+      ]
+    },
+    {
+      "title": "FIELD PHOTOS (KEY)",
+      "type": "photos",
+      "photo_dir": "sample_photos",
+      "pairs": [
+        [
+          {"file": "photo_01_curb_opening.jpg", "caption": "RTU-1 curb opening showing the deck condition. 03/10/2026."},
+          {"file": "photo_02_deck_repair.jpg", "caption": "Deck area marked for repair at RTU-1. 03/11/2026."}
+        ],
+        [
+          {"file": "photo_03_unit_delivery.jpg", "caption": "RTU-2 curb adapter set and roofed in. 03/11/2026."},
+          {"file": "photo_04_duct_drop.jpg", "caption": "Existing duct drop below RTU-2 before transition fit. 03/11/2026."}
+        ]
+      ]
+    },
+    {
+      "title": "ATTACHMENTS",
+      "type": "bullets",
+      "items": [
+        "Daily Photo Log, 03/10 to 03/11/2026.",
+        "OAC Meeting Minutes, 03/10/2026."
+      ]
+    }
+  ],
+  "signature_name_block": "Pat Doe, Project Manager\nExample Mechanical, LLC",
+  "signature_date": "March 11, 2026",
+  "doc_created_iso": "2026-03-11T08:00:00",
+  "output_dir": "_sample_output"
+}

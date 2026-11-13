@@ -1,0 +1,24 @@
+using Autodesk.AutoCAD.Runtime;
+using Autodesk.AutoCAD.ApplicationServices.Core;
+using Autodesk.AutoCAD.DatabaseServices;
+[assembly: CommandClass(typeof(ClaudeProbe.Cmds))]
+namespace ClaudeProbe {
+  public class Cmds {
+    [CommandMethod("CLAUDEPROBE")]
+    public static void Probe() {
+      var doc = Application.DocumentManager.MdiActiveDocument;
+      int pipes = 0, total = 0;
+      using (var tr = doc.Database.TransactionManager.StartTransaction()) {
+        var bt = (BlockTable)tr.GetObject(doc.Database.BlockTableId, OpenMode.ForRead);
+        var ms = (BlockTableRecord)tr.GetObject(bt[BlockTableRecord.ModelSpace], OpenMode.ForRead);
+        foreach (ObjectId id in ms) {
+          total++;
+          var ent = tr.GetObject(id, OpenMode.ForRead);
+          if (ent is Autodesk.Aec.Building.Piping.DatabaseServices.Pipe) pipes++;
+        }
+        tr.Commit();
+      }
+      doc.Editor.WriteMessage("\nCLAUDEPROBE entities " + total + " MEP pipes " + pipes + "\n");
+    }
+  }
+}

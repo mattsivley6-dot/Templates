@@ -1,10 +1,10 @@
 """
-Build submittal-flow templates matching the actual Centric / EMA visual style.
+Build submittal-flow templates matching a real-world submittal package style.
 
 Style rules pulled from the live submittal PDFs:
 
   Transmittal
-    - Left-aligned letterhead (small), Centric URL underlined in hyperlink blue
+    - Left-aligned letterhead (small), company URL underlined in hyperlink blue
     - Centered black bold "TRANSMITTAL" title (plain, no banner)
     - Bordered tables. Label cells filled light blue (#DAE3F3), black text
     - At the bottom: red A/E REVIEW STAMP block (filled in by Engineer)

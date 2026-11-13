@@ -1,0 +1,18 @@
+pipes 2 fittings 1
+pipe 101E392 start (0.0, 0.0, 132.0) end (237.3, 0.0, 132.0) elev 132.0 sys Standard
+pipe 101E39C start (240.0, 2.7000000000000037, 120.0) end (240.00000000000006, 240.0, 120.0) elev 120.0 sys CHWS (CHWS)
+AecbDbPipe 101E392 connectors.Count 3 [(0, (0.0, 0.0, 132.0), 'None'), (1, (237.3, 0.0, 132.0), 'None'), (2, "ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None)", 'None')]
+AecbDbPipe 101E39C connectors.Count 3 [(0, (240.0, 2.7000000000000037, 120.0), [('AecbDbPipeFitting', '101E39B')]), (1, (240.00000000000006, 240.0, 120.0), 'None'), (2, "ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None)", 'None')]
+AecbDbPipeFitting 101E39B connectors.Count 3 [(0, (237.3, 0.0, 120.0), 'None'), (1, (240.0, 2.7000000000000037, 120.0), [('AecbDbPipe', '101E39C')]), (2, "ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None)", 'None')]
+p0 elevation back to 120 -> start (0.0, 0.0, 120.0)
+put StartPoint (VT_R8 array) -> start (-24.0, 0.0, 120.0) length 261.3
+put EndPoint (VT_R8 array) -> end (240.00000000000006, 276.0, 120.0) length 273.3
+Break(VT_R8 mid) -> returned 2975652509552 modelspace count 4
+put SystemName 'CHWS (CHWS)' -> CHWS (CHWS)
+put SystemName 'CHWS' ERR (-2147352567, 'Exception occurred.', (0, None, None, None, 0, -2147467259), None)
+put Layer M-CHWS -> M-CHWS
+Graphs.Count 1
+  graph 0 count 4 [('AecbDbPipe', '101E392'), ('AecbDbPipeFitting', '101E39B'), ('AecbDbPipe', '101E39C'), ('AecbDbPipe', '101E3AF')]
+  iterator ERR (-2147352570, 'Unknown name.', None, None)
+saved <temp>/acadtest/mep_probe3/rp_probe3_after.dwg
+dialogs seen: []

@@ -1,0 +1,109 @@
+{
+  "project": {
+    "project_line": "Sample Elementary School HVAC Replacement, 200 Example Avenue, Anytown, TX 75001",
+    "owner": "Sample ISD",
+    "job_short": "Sample ES",
+    "pdf_title_project": "Sample Elementary School HVAC Replacement",
+    "prepared_by": "Pat Doe, Project Manager",
+    "photo_dir": "sample_photos"
+  },
+  "output_dir": "_sample_output",
+  "reports": [
+    {
+      "report_no": 1,
+      "date": "2026-01-12",
+      "weather": "High 60. Low 41.",
+      "work": [
+        "Mobilized to site. Staged material in the laydown area."
+      ],
+      "crews": [
+        {"trade": "HVAC"}
+      ],
+      "equipment": [],
+      "deliveries": [],
+      "safety": [],
+      "visitors": [],
+      "remarks": [],
+      "photos": [
+        {"file": "photo_01.jpg"},
+        {"file": "photo_02.jpg"}
+      ]
+    },
+    {
+      "report_no": 3,
+      "date": "2026-01-14",
+      "weather": "Clear, cool, dry. No time lost.",
+      "work": [
+        "Disconnected and removed existing RTU-1.",
+        "Set new curb adapter at RTU-1 and checked it for level.",
+        "Crane set new RTU-1 on the curb adapter.",
+        "Submitted RFI-001 for the RTU-2 curb adapter."
+      ],
+      "crews": [
+        {"trade": "HVAC", "count": 4},
+        {"trade": "Electrical"},
+        {"trade": "Crane"}
+      ],
+      "equipment": [
+        "Crane",
+        "Flatbed truck"
+      ],
+      "deliveries": [
+        "RTU-1 and curb adapter from Sample Supply"
+      ],
+      "safety": [
+        "Crane pick zone barricaded during the lift."
+      ],
+      "visitors": [
+        "Owner Engineer Contractor meeting held."
+      ],
+      "remarks": [
+        "RTU-2 set planned for next week, weather permitting."
+      ],
+      "photos": [
+        {"file": "photo_01.jpg"},
+        {"file": "photo_02.jpg"},
+        {"file": "photo_03.jpg"},
+        {"file": "photo_04.jpg"}
+      ]
+    },
+    {
+      "report_no": 4,
+      "date": "2026-01-15",
+      "weather": "Cloudy. Light rain PM.",
+      "work": [
+        "Connected gas and condensate at RTU-1.",
+        "Electrical sub terminated power at the RTU-1 disconnect."
+      ],
+      "crews": [
+        {"trade": "HVAC"},
+        {"trade": "Electrical"}
+      ],
+      "equipment": [],
+      "deliveries": [],
+      "safety": [],
+      "visitors": [],
+      "remarks": [],
+      "photos": [
+        {"file": "photo_03.jpg"},
+        {"file": "photo_04.jpg"},
+        {"file": "photo_01.jpg"}
+      ]
+    },
+    {
+      "report_no": 6,
+      "date": "2026-01-17",
+      "weather": "High 55. Low 38.",
+      "work": [
+        "No work performed. Weekend."
+      ],
+      "crews": [],
+      "equipment": [],
+      "deliveries": [],
+      "safety": [],
+      "visitors": [],
+      "remarks": [],
+      "photos": []
+    }
+  ]
+}
