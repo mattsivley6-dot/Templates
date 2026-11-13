@@ -1,0 +1,41 @@
+{
+  "rfi_number": "RFI-001",
+  "output_filename": "Sample_ES_RFI-001_RTU-2_Curb_Adapter.pdf",
+  "pdf_title": "Sample ES RFI-001 RTU-2 Curb Adapter",
+  "output_dir": null,
+  "project": "Sample Elementary School HVAC Replacement, Sample ISD  |  Project 2026-0001",
+  "owner": "Sample ISD",
+  "date": "January 14, 2026",
+  "response_requested_by": "January 17, 2026",
+  "to": "Alex Poe, Sample Engineering, Inc. (Engineer of Record)",
+  "from": "Pat Doe, Example Mechanical, LLC",
+  "subject": "The new RTU-2 does not fit the existing curb. We need direction on the curb adapter before we set the unit.",
+  "references": "Drawing M-101 (Roof Plan). Spec section 23 74 13 (Packaged Rooftop Units). Related: PCO-001.",
+  "background": [
+    "We are replacing RTU-1 and RTU-2.",
+    "RTU-1 is set on a new curb adapter and is level.",
+    "The new RTU-2 has a different footprint than the old unit. The existing curb does not match the new unit's supply and return openings.",
+    "A photo of each unit is attached."
+  ],
+  "question": [
+    "How do you want us to set RTU-2? Please pick one:",
+    "1.  Use a factory curb adapter that matches the old curb to the new unit.",
+    "2.  Remove the old curb and set a new full curb.",
+    "Please send a drawing or a written answer."
+  ],
+  "proposed_resolution": [
+    "We recommend option 1. It keeps the roof opening as is.",
+    "The curb adapter is not in the contract documents. We will price it as a change order (PCO-001).",
+    "Please tell us which option to use so we can schedule the crane."
+  ],
+  "photo_page": {
+    "heading": "FIELD PHOTOGRAPHS (ONE PER UNIT)",
+    "caption_font_size": 11,
+    "max_image_height_in": 3.9,
+    "photos": [
+      {"file": "sample_photos/RTU-1.jpg", "caption": "RTU-1"},
+      {"file": "sample_photos/RTU-2.jpg", "caption": "RTU-2"}
+    ]
+  },
+  "inline_photo": null
+}

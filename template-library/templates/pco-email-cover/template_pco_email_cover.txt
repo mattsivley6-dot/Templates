@@ -1,0 +1,11 @@
+TO:  {{TO}}
+CC:  {{CC}}
+SUBJECT:  {{SUBJECT}}
+ATTACH:  {{ATTACH}}
+
+{{GREETING}},
+
+{{BODY}}
+
+{{CLOSING}}
+{{SIGNATURE}}

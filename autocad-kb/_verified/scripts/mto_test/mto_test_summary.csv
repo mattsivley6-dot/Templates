@@ -1,0 +1,15 @@
+﻿section,kind,system,size,part_or_style,insulation,count,length_ft,cut_length_ft
+length,Pipe,CHWR,"2""",,,2,49.7635,49.7635
+length,Pipe,CHWR,"1-1/2""",,,1,50.0025,50.0025
+length,Pipe,CHWS,"4""",,,4,69.5591,69.5591
+length,Pipe,CHWS,"2""",,,1,19.1953,19.1953
+length,Pipe,Standard,"3/4""",,,1,10.0,10.0
+fitting_by_type,Elbow 90,,"4""",,,1,,
+fitting_by_type,Elbow 90,,"2""",,,1,,
+fitting_by_type,"Reducer, concentric",,"4"" x 2""",,,1,,
+fitting_by_type,Tee,,"4""",,,1,,
+fitting_by_part,,,"4"" x 2""",Glued - Sch 40 - Concentric Reducer,,1,,
+fitting_by_part,,,"4""",Glued - Sch 40 - PVC Elbow 90.0 Deg,,1,,
+fitting_by_part,,,"2""",Glued - Sch 40 - PVC Elbow 90.0 Deg,,1,,
+fitting_by_part,,,"4""",Glued - Sch 40 - PVC Tee,,1,,
+insulated,,CHWR,"2""",,"1-1/2""",,49.7635,

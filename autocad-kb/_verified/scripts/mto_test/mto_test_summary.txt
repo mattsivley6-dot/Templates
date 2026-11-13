@@ -1,0 +1,37 @@
+MEP takeoff: mto_test.dwg
+Run 2026-10-18 04:55 with the AutoCAD Core Console (headless). Lengths in feet.
+  mto_test.dwg: exit 0 in 6 s, units inches, 13 MEP objects in model space, 13 listed and parsed.
+Checks: counts match, nothing missing or doubled
+
+LENGTH BY SYSTEM AND SIZE (pipe pieces between fittings)
+  Object  System      Size    Pieces  Length ft  Cut ft
+  Pipe    CHWR        2"           2      49.76   49.76
+  Pipe    CHWR        1-1/2"       1      50.00   50.00
+          CHWR total               3      99.77   99.77
+  Pipe    CHWS        4"           4      69.56   69.56
+  Pipe    CHWS        2"           1      19.20   19.20
+          CHWS total               5      88.75   88.75
+  Pipe    Standard    3/4"         1      10.00   10.00
+          ALL PIPE                 9     198.52  198.52
+  Totals add unrounded lengths.
+
+FITTINGS BY TYPE AND SIZE
+  Type                 Size     Count
+  Elbow 90             4"           1
+  Elbow 90             2"           1
+  Reducer, concentric  4" x 2"      1
+  Tee                  4"           1
+  4 total fittings
+
+FITTINGS BY PART AND SIZE
+  Part                                 Size     Count
+  Glued - Sch 40 - Concentric Reducer  4" x 2"      1
+  Glued - Sch 40 - PVC Elbow 90.0 Deg  4"           1
+  Glued - Sch 40 - PVC Elbow 90.0 Deg  2"           1
+  Glued - Sch 40 - PVC Tee             4"           1
+
+INSULATED
+  System  Size  Insulation  Length ft
+  CHWR    2"    1-1/2"          49.76
+
+Files: mto_test_objects.csv | mto_test_summary.csv | log: mto_test_list.log

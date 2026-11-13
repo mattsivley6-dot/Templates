@@ -1,0 +1,14 @@
+{
+  "_comment": "Example decisions for apply_proposed_labels.py. Keys are line-item description substrings (first match wins). Values are CSI sections to accept. An empty list means skip.",
+  "RTU": ["23 05 32", "23 81 19"],
+  "Electrical": ["26 00 00"],
+  "Warranty": ["22 00 00", "23 00 00", "26 00 00"],
+  "Test and Balance": ["23 05 93"],
+  "Controls": ["23 09 23"],
+  "Plumbing": ["22 00 00"],
+  "Roofing": ["23 05 32"],
+  "Bond": [],
+  "Contingency": [],
+  "Crane": [],
+  "Misc Materials": []
+}

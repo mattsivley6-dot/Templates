@@ -1,0 +1,51 @@
+{
+  "owner": "Sample ISD, Anytown, TX 75000",
+  "contractor": "{legal_name}, {address_line1}, {city_state_zip}",
+  "project": "Sample Elementary School HVAC Replacement, 200 Example Avenue, Anytown, TX 75001",
+  "project_short": "Sample Elementary School",
+  "project_slug": "Sample_ES",
+  "via_engineer": "Sample Engineering, Inc. (Alex Poe, PE)",
+  "contract_for": "HVAC Replacement, Project 2026-0001",
+  "contract_ref": "Project 2026-0001",
+  "contract_date": "January 15, 2026",
+  "application_no": 2,
+  "application_date": "03/31/2026 (set to actual signing date)",
+  "application_date_iso": "2026-03-31",
+  "period_from": "03/01/2026",
+  "period_to": "03/31/2026",
+  "invoice_no": "TBD",
+  "retainage_pct": 5,
+  "previous_certificates": 28500.00,
+  "previous_certificates_note": "Application No. 1",
+  "materials_stored_cumulative": 60000.00,
+  "original_contract_sum": 300000.00,
+  "verified_by": "{pm_name}, {pm_title}",
+  "status_slug": "DRAFT",
+  "banner_text": "DRAFT FOR INTERNAL REVIEW - NOT FOR SUBMISSION",
+  "revision_tag": "Rev. 03/30/2026",
+  "face_note": "Note: PCO-001 is pending owner and engineer signature and is not included in this application.",
+  "change_orders": {
+    "previous_additions": 0.0,
+    "previous_deductions": 0.0,
+    "this_month_additions": 0.0,
+    "this_month_deductions": 0.0
+  },
+  "highlight_this_period_items": ["SOV 0006"],
+  "sov_lines": [
+    {"item": "SOV 0001", "description": "Mobilization", "scheduled_value": 10000.00, "previous": 5000.00, "this_period": 5000.00, "stored": 0.0},
+    {"item": "SOV 0002", "description": "Bonds and Insurance", "scheduled_value": 10000.00, "previous": 10000.00, "this_period": 0.0, "stored": 0.0},
+    {"item": "SOV 0003", "description": "General Conditions", "scheduled_value": 20000.00, "previous": 5000.00, "this_period": 5000.00, "stored": 0.0},
+    {"item": "SOV 0004", "description": "Div 23 - HVAC Equipment", "scheduled_value": 100000.00, "previous": 0.0, "this_period": 0.0, "stored": 50000.00},
+    {"item": "SOV 0005", "description": "Div 23 - HVAC Material", "scheduled_value": 40000.00, "previous": 10000.00, "this_period": 10000.00, "stored": 0.0},
+    {"item": "SOV 0006", "description": "Div 23 - HVAC Labor", "scheduled_value": 60000.00, "previous": 0.0, "this_period": 10000.00, "stored": 0.0},
+    {"item": "SOV 0007", "description": "Div 23 - Controls", "scheduled_value": 30000.00, "previous": 0.0, "this_period": 0.0, "stored": 10000.00},
+    {"item": "SOV 0008", "description": "Div 26 - Electrical", "scheduled_value": 20000.00, "previous": 0.0, "this_period": 0.0, "stored": 0.0},
+    {"item": "SOV 0009", "description": "Owner's Contingency", "scheduled_value": 10000.00, "previous": 0.0, "this_period": 0.0, "stored": 0.0}
+  ],
+  "continuation_notes": [
+    "Green rows show materials presently stored. Dated photos of the stored material are attached as backup.",
+    "SOV 0004 HVAC Equipment: RTU-1 and RTU-2 delivered and stored on site (PO-1001). Backup: packing lists, delivery tickets, photos.",
+    "SOV 0007 Controls: stored controllers per the controls sub's invoice. Conditional waiver attached.",
+    "Owner's Contingency unbilled: PCO-001 pending signatures."
+  ]
+}

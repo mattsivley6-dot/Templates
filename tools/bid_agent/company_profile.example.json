@@ -1,0 +1,15 @@
+{
+  "company_legal_name": "Example Mechanical, LLC",
+  "company_dba": "Example Mechanical",
+  "company_type": "commercial MEP subcontractor",
+  "location": "Anytown, TX",
+  "self_perform": ["HVAC", "plumbing"],
+  "subcontracted": ["electrical"],
+  "market_focus": "K-12 school district and commercial projects",
+  "bonding_capacity": null,
+  "pm_software": "[PM Software]",
+  "pm_name": "Pat Doe",
+  "pm_title": "Project Manager",
+  "pm_phone": "(555) 010-0101",
+  "pm_email": "pat.doe@example.com"
+}

@@ -1,0 +1,9 @@
+# Words that mark a page line as project chrome, not a section title.
+# extract_spec.py skips any title candidate that contains one of these.
+# One per line, case does not matter. Lines starting with # are ignored.
+# Add the owner, engineer, architect and project names printed in the
+# headers and footers of the spec books you process. Examples:
+# SAMPLE ISD
+# SAMPLE ENGINEERING
+# SAMPLE ELEMENTARY SCHOOL HVAC REPLACEMENT
+# ANYTOWN, TX

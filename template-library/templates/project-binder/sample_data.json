@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "binder_title": "Sample Elementary Project Record Binder",
+    "output_prefix": "Sample Elementary",
+    "prepared_line": "Prepared March 31, 2026",
+    "header_project_line1": "SAMPLE ELEMENTARY SCHOOL",
+    "header_project_line2": "Sample ISD, Project 2026-0001",
+    "footer_binder_label": "Sample Elementary Binder",
+    "pdf_subject": "Sample Elementary School HVAC Replacement, Sample ISD, Project 2026-0001",
+    "pdf_date": "D:20260331120000-06'00'",
+    "allowed_dash_tokens": [
+      "2026-0001",
+      "J-0001"
+    ],
+    "ref_fixes": [
+      [
+        "\\bEF-(\\d+)\\b",
+        "EF \\1"
+      ]
+    ],
+    "word_joins": {}
+  },
+  "cover": {
+    "tab_no": "00",
+    "section_name": "Cover and Contents",
+    "kicker": "PROJECT RECORD BINDER",
+    "title_lines": [
+      "Sample Elementary School",
+      "HVAC Replacement Project"
+    ],
+    "facts": [
+      ["Owner", "Sample ISD"],
+      ["Project No.", "2026-0001"],
+      ["Engineer", "Sample Engineering, Inc."],
+      ["Site", "200 Example Avenue, Anytown, TX 75001"],
+      ["Contractor", "Example Mechanical, LLC"],
+      ["Contract Sum", "$100,000.00"],
+      ["Project Manager", "Pat Doe"],
+      ["Substantial Completion", "June 30, 2026"]
+    ],
+    "record_period": "Record period: January 5, 2026 through March 31, 2026.",
+    "record_intro": "Built from the project mailbox, the RFI and submittal logs, the change order file, and the daily reports.",
+    "toc": [
+      ["01", "Project Summary", "The job on one page. Scope. Milestones."],
+      ["02", "Directory", "Every party on the job and the formal notice addresses."],
+      ["03", "Contract", "Signed agreement, general conditions, notice to proceed."],
+      ["04", "Schedule", "Baseline and current schedule."],
+      ["05", "Weather", "Weather days claimed and granted."],
+      ["06", "Daily Reports", "Daily field reports in date order."],
+      ["07", "Manpower", "Crew counts by day."],
+      ["08", "Pay Apps and Cost", "Pay applications and backup."],
+      ["09", "RFI Log", "Register plus one page per RFI."],
+      ["10", "Submittal Log", "What was submitted and the action."],
+      ["11", "Change Orders", "Register, contingency ledger, one page per PCO."],
+      ["12", "Risk Register", "Open risks and what is being done."],
+      ["13", "Safety", "Site safety plan and incident log."],
+      ["14", "Quality", "Inspections and test reports."],
+      ["15", "Meetings and Notices", "Meeting minutes and formal notices."],
+      ["16", "Procurement", "Equipment orders and ship dates."],
+      ["17", "Photo Log", "Daily photo logs and photo exhibits."],
+      ["18", "Startup and Warranty", "Startup reports and the warranty matrix."],
+      ["19", "Closeout", "Closeout checklist and deliverables."],
+      ["20", "Lessons Learned", "What to repeat and what to change."]
+    ],
+    "how_to_read_lead": "Each tab stands alone. Each page stands alone.",
+    "how_to_read": [
+      "Pages are short on purpose. Facts first. No filler.",
+      "Registers come first in each tab. Detail pages follow, one per item.",
+      "Dates are shown as month, day, year.",
+      "Where two records disagree, both are kept with a note saying so.",
+      "Dollar amounts are exact. Credits are shown in parentheses.",
+      "Tab 11 ties every RFI with a cost to its PCO."
+    ]
+  },
+  "summary": {
+    "tab_no": "01",
+    "tab_title": "Project Summary",
+    "subtitle": "The job on one page",
+    "headline": "Replace 2 rooftop HVAC units and curbs. Add new controls. Keep the school open the whole time.",
+    "facts": [
+      ["Contract Sum", "$100,000.00"],
+      ["Contract Type", "Lump sum"],
+      ["Notice to Proceed", "January 5, 2026"],
+      ["Substantial Completion", "June 30, 2026"],
+      ["Owner Rep", "Sam Roe, Sample ISD"],
+      ["Engineer", "Alex Poe, Sample Engineering, Inc."]
+    ],
+    "status_heading": "Where the job stands, March 31, 2026",
+    "status_bullets": [
+      "Both new curbs are set and dried in.",
+      "RTU-1 and RTU-2 were delivered March 2 and are stored on site.",
+      "RFI 001 (curb out of level) is answered. The fix is PCO 001.",
+      "Submittals for the units and controls are approved.",
+      "Two PCOs are approved, one is pending.",
+      "Unit set is planned for the spring break week."
+    ],
+    "scope_rows": [
+      ["HVAC units", "Remove 2 rooftop units. Furnish and set 2 new units on new curbs."],
+      ["Curbs", "New curbs and adapters at both units. Roof tie in by the roofing sub."],
+      ["Controls", "New thermostats and building automation tie in for both units."],
+      ["Electrical", "New disconnects and feeders by Sample Electric."],
+      ["Startup", "Factory startup, test and balance, owner training."],
+      ["Closeout", "O&M manuals, warranty matrix, as built drawings."]
+    ],
+    "milestones": [
+      {"date": "2026-01-05", "event": "Notice to proceed issued."},
+      {"date": "2026-01-20", "event": "Unit and controls submittals sent to the engineer."},
+      {"date": "2026-02-03", "event": "Submittals approved as noted."},
+      {"date": "2026-02-10", "event": "Units released for production with Sample Supply."},
+      {"date": "2026-03-02", "event": "RTU-1 and RTU-2 delivered and stored on site.", "note": "Photo exhibit filed with Pay App 1."},
+      {"date": "2026-03-03", "event": "Curbs set. RFI 001 issued for the out of level curb."},
+      {"date": "2026-03-10", "event": "RFI 001 answered. PCO 001 priced."},
+      {"date": "2026-03-24", "event": "PCO 001 and PCO 002 approved."}
+    ]
+  },
+  "directory": {
+    "tab_no": "02",
+    "tab_title": "Directory",
+    "subtitle": "Every party on the job",
+    "contacts": [
+      {"org": "Sample ISD", "name": "Sam Roe", "title": "Owner representative", "phone": "(555) 010-0102", "email": "sam.roe@example.com"},
+      {"org": "Sample Engineering, Inc.", "name": "Alex Poe", "title": "Engineer of record", "phone": "(555) 010-0103", "email": "alex.poe@example.com"},
+      {"org": "Example Mechanical, LLC", "name": "Pat Doe", "title": "Project manager", "phone": "(555) 010-0101", "email": "pat.doe@example.com"},
+      {"org": "Sample Electric", "name": "Jordan Lee", "title": "Electrical foreman", "phone": "(555) 010-0104", "email": "jordan.lee@example.com"},
+      {"org": "Sample Supply", "name": "Sales desk", "title": "Equipment vendor", "phone": "(555) 010-0105", "email": "sales@example.com"}
+    ],
+    "notice_heading": "Formal notice addresses (per the contract notice clause, certified mail)",
+    "notice_addresses": [
+      ["Owner: Sample ISD", "Attn: Sam Roe, 200 Example Avenue, Anytown, TX 75001"],
+      ["Contractor: Example Mechanical, LLC", "Attn: Pat Doe, 100 Sample Street, Anytown, TX 75000"]
+    ]
+  },
+  "rfi_log": {
+    "tab_no": "09",
+    "tab_title": "RFI Log",
+    "subtitle": "Register plus one page per RFI",
+    "register_note": "RFI numbers run in the order sent. No numbers were skipped.",
+    "rfis": [
+      {
+        "number": "001",
+        "title": "RTU-2 curb out of level at the existing roof opening",
+        "date_sent": "2026-03-03",
+        "sent_to": "Alex Poe, Sample Engineering, Inc.",
+        "date_answered": "2026-03-10",
+        "answer": "Level the curb with treated wood blocking per the attached sketch. Roofer to tie in after.",
+        "status": "Closed",
+        "linked_pco": "PCO-001",
+        "note": "Photos of the out of level curb are in the 03/03/2026 photo log."
+      },
+      {
+        "number": "002",
+        "title": "Thermostat mounting height in classrooms",
+        "date_sent": "2026-03-12",
+        "sent_to": "Alex Poe, Sample Engineering, Inc.",
+        "date_answered": "2026-03-14",
+        "answer": "Mount at 48 inches to the top of the device.",
+        "status": "Closed",
+        "linked_pco": "",
+        "note": ""
+      },
+      {
+        "number": "003",
+        "title": "Condensate drain route at RTU-1",
+        "date_sent": "2026-03-26",
+        "sent_to": "Alex Poe, Sample Engineering, Inc.",
+        "date_answered": "",
+        "answer": "",
+        "status": "Open",
+        "linked_pco": "",
+        "note": "Waiting on the engineer. Not on the critical path yet."
+      }
+    ]
+  },
+  "submittal_log": {
+    "tab_no": "10",
+    "tab_title": "Submittal Log",
+    "subtitle": "What was submitted and the action",
+    "submittals": [
+      {"item": "Rooftop units RTU-1 and RTU-2: product data", "spec": "23 74 13", "date_submitted": "2026-01-20", "date_returned": "2026-02-03", "action": "Approved as noted", "status": "Closed", "note": "Engineer asked for the economizer option on both units."},
+      {"item": "Roof curbs and adapters", "spec": "23 74 13", "date_submitted": "2026-01-20", "date_returned": "2026-02-03", "action": "Approved", "status": "Closed", "note": ""},
+      {"item": "Controls: thermostats and sequence of operation", "spec": "23 09 00", "date_submitted": "2026-01-27", "date_returned": "2026-02-10", "action": "Revise and resubmit", "status": "Superseded by resubmittal", "note": "Sequence did not show the economizer lockout."},
+      {"item": "Controls resubmittal", "spec": "23 09 00", "date_submitted": "2026-02-12", "date_returned": "2026-02-19", "action": "Approved", "status": "Closed", "note": ""},
+      {"item": "Test and balance agency qualifications", "spec": "23 05 93", "date_submitted": "2026-03-20", "date_returned": "", "action": "", "status": "Pending review", "note": ""}
+    ]
+  },
+  "change_orders": {
+    "tab_no": "11",
+    "tab_title": "Change Orders",
+    "subtitle": "Register, ledger, one page per PCO",
+    "labor_rate_basis": "All PCOs are priced at the contract labor rates with the contract markup. Pricing backup is in the PCO file.",
+    "funding_default": "Owner contingency",
+    "pcos": [
+      {
+        "number": "001",
+        "title": "Level RTU-2 curb with wood blocking (RFI 001)",
+        "origin": "RFI-001 / existing roof opening out of level",
+        "amount": "$1,000.00",
+        "amount_type": "Firm",
+        "status": "Approved by the owner 03/24/2026.",
+        "key_dates": [
+          "2026-03-10 RFI 001 answered with the blocking detail.",
+          "2026-03-12 PCO 001 sent to the owner.",
+          "2026-03-24 PCO 001 approved."
+        ],
+        "note": "Roofer tie in is included."
+      },
+      {
+        "number": "002",
+        "title": "Add economizers to RTU-1 and RTU-2 per submittal review",
+        "origin": "Submittal review comment",
+        "amount": "$2,500.00",
+        "amount_type": "Firm",
+        "status": "Approved by the owner 03/24/2026.",
+        "history": "V1 03/05 $3,000.00; V2 03/12 $2,500.00 after the vendor credit.",
+        "key_dates": [
+          "2026-02-03 Engineer asked for economizers in the submittal review.",
+          "2026-03-05 PCO 002 V1 sent.",
+          "2026-03-12 PCO 002 V2 sent.",
+          "2026-03-24 PCO 002 approved."
+        ]
+      },
+      {
+        "number": "003",
+        "title": "Credit for owner furnished thermostats",
+        "origin": "Owner request",
+        "amount": "($500.00)",
+        "amount_type": "Credit",
+        "status": "Sent 03/30/2026. Waiting on the owner.",
+        "funding": "Credit back to owner contingency"
+      }
+    ],
+    "contingency": [
+      {"item": "Owner contingency (contract allowance)", "amount": 10000.00},
+      {"item": "PCO 001 level RTU-2 curb", "amount": -1000.00},
+      {"item": "PCO 002 add economizers", "amount": -2500.00},
+      {"item": "PCO 003 thermostat credit (pending)", "amount": 500.00}
+    ],
+    "contingency_remaining": "+$7,000.00",
+    "contingency_note": "Balance per the owner's contingency log as of 03/31/2026."
+  }
+}

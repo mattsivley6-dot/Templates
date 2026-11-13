@@ -1,0 +1,9 @@
+# Keep generated documents and images byte-for-byte
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.xls binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.dwg binary

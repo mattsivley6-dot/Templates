@@ -1,0 +1,10 @@
+# DRAFT EMAIL - {{DRAFT_TITLE}}
+To: {{TO}}
+Subject: {{SUBJECT}}
+
+{{GREETING}},
+
+{{BODY}}
+
+{{CLOSING}}
+{{SIGNATURE}}

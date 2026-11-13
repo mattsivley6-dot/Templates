@@ -1,0 +1,35 @@
+{
+  "variant": "pco_cover",
+  "output_filename": "Email cover - PCO-001.txt",
+  "wrap_width": 83,
+  "to": [
+    "Alex Poe (alex.poe@example.com)"
+  ],
+  "cc": [
+    "Sam Roe (sam.roe@example.com)"
+  ],
+  "subject": "Sample ES PCO-001 for review and signature (RTU-1 curb adapter)",
+  "attach": [
+    "Sample_ES_PCO-001_RTU-1_Curb_Adapter.pdf"
+  ],
+  "greeting": "Alex",
+  "body": [
+    "Attached is PCO-001 for the curb adapter at RTU-1.",
+    "It is not to exceed $10,000.00. The existing curb does not match the new unit, so an adapter and new flashing are needed before the unit can be set.",
+    {
+      "intro": "Three parts, each broken out:",
+      "numbered": [
+        "Curb adapter and flashing, material from Sample Supply.",
+        "Roofing sub, tie-in and flashing at the adapter.",
+        "Our crew, firm, set and seal the adapter before the crane day."
+      ]
+    },
+    "Backup for each part is attached. Please sign and forward to the owner. Nothing starts until all parties sign, or your email to proceed."
+  ],
+  "closing": "Thank you,",
+  "signature": [
+    "{pm_name}",
+    "{pm_title}",
+    "{legal_name}"
+  ]
+}
